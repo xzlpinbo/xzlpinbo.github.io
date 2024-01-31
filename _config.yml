@@ -118,47 +118,7 @@ content:
           - 内部系统全自动风险监控
           - 日更新Batch,全自动化更新服务
           - React.js/Spring-Boot(java 11)/Oracle
-      
-
-
-
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name222
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-
-
+ 
 
 
 
@@ -167,14 +127,15 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+      - layout: top-left
+        title: 建国大学(건국대학교)
+        sub_title: Software Engineering () 
+        caption: 2016-2020
+        # quote: >
+        #   Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+          - 建国大学计算机科学系软件工学科
+          - 毕业设计,毕业论文获奖
   
   
   - title: A Little More About Me
