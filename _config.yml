@@ -137,6 +137,27 @@ content:
           - 国家核心技术保护项目,高保密性(국가핵심기술보호),高可靠性,高性能
           - 大型Daily Batch构建,30+其他内部系统联动调用
           - React.js/Spring-Boot(java 8),Django 3/Oracle,PostgreSQL/Docker/Windows Server
+
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Lotte-rental
+        link: https://www.lotterental.com/
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          租车签约/租车过户电子化系统(金融类系统,年销售3万亿韩元)
+        description: |
+          - 公司内部ERP联动,内部系统资源调用
+          - 系统搭建,设计,开发,项目管理,项目维护独立完成
+          - 韩国国家金融监理会联动,每月自动划款系统认证联动
+          - 金融类项目标准完成安全和保密工作
+          - React.js/Spring-Boot(java 8)/PostgreSQL
+
+          
  
 
   - title: Education
