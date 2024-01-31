@@ -103,20 +103,24 @@ content:
       - layout: top-middle
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: LG新能源
+        link: https://www.lgensol.com/zh/index
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          公司内部电子审批/合约/誓约签名系统(全世界12万名员工使用,日PV十万级)
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          - 公司内部ERP联动,1级安保系统
+          - 前后端开发,CI/CD
+          - 内部系统全自动风险监控
+          - 日更新Batch,全自动化更新服务
+          - React.js/Spring-Boot(java 11)/Oracle
+      
+
+
 
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
