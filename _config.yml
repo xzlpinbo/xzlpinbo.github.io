@@ -52,6 +52,7 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile1.jpg
 about_content : | 
+
 拥有5年经验的全栈开发,专注于Java/Python后端服务和React.js前端服务,熟悉AWS托管环境。曾为多家韩国大企业提供企业级定制服务,参与了从系统设计规划、开发到日程管理的全过程
 
 # about_content: | # this will include new lines to allow paragraphs
