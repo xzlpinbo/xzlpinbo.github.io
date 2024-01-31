@@ -64,16 +64,28 @@ about_content : |
 #     - Images ![alt text](/images/landscape-trees.jpg "Trees")
 
 content:
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Company name
+        sub_title: Job title
+        caption: Date Range (eg. November 2016 - present)
+        link: Link to company (optional)
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+  
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: CHUNGHO
-        link: https://www.chungho.co.kr/newch/chungho
-        job_title: 全栈开发
-        dates: 2023.12 ~ 至今
+        link: https://www.chungho.co.kr/
         # link_text: Link Text
         # additional_links:
         #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -88,7 +100,7 @@ content:
           - 公司内部自动化报错监控(lamda)
           - React.js/Spring-Boot(java 11)/PostgreSQL/Docker
 
-      - layout: left
+      - layout: top-middle
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Project name
@@ -124,7 +136,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
 
-                - layout: left
+      - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: Project name
@@ -147,18 +159,7 @@ content:
 
 
 
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+
   - title: Education
     layout: list
     content:
@@ -170,6 +171,8 @@ content:
           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
           Description of qualification
+  
+  
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
