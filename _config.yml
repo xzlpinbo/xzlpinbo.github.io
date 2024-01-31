@@ -70,19 +70,23 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: CHUNGHO 电子合约系统开发
+        title: CHUNGHO
         link: https://www.chungho.co.kr/newch/chungho
+        job_title: 全栈开发
+        dates: 2023.12 ~ 至今
         # link_text: Link Text
         # additional_links:
         #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          净水器预约购买后，电子签约系统(B2B/B2C,会员数1000万)
+          产品预约购买后，电子签约系统(B2B/B2C,会员数1000万级,年销售5000亿韩元)
         description: | # this will include new lines to allow paragraphs
           - 公司内部ERP联动
           - 个人信息保护法内部网络独立
-          - 3端口互联
+          - 系统搭建,设计,开发,项目管理独立完成
+          - 公司内部自动化报错监控(lamda)
+          - React.js/Spring-Boot(java 11)/PostgreSQL/Docker
 
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
