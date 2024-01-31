@@ -116,7 +116,7 @@ content:
           - 公司内部ERP联动,1级安保系统
           - 前后端开发,CI/CD
           - 内部系统全自动风险监控
-          - 日更新Batch,全自动化更新服务
+          - 日更新Batch,全自动化更新服务,Slow query 调优,JVM调优
           - React.js/Spring-Boot(java 11)/Oracle
 
       - layout: top-middle
@@ -134,8 +134,8 @@ content:
         description: |
           - 涉密公司内部数据库联动,最上级信息安全系统
           - 系统搭建,设计,开发,项目管理,项目维护独立完成
-          - 国家核心技术保护项目,高保密性(국가핵심기술보호),高可靠性,高性能
-          - 大型Daily Batch构建,30+其他内部系统联动调用
+          - 企业适配Slow query 调优,JVM调优,WAS/WEB/DB多集群服务器调优
+          - 大型Daily Batch构建,30+其他内部系统联动调用,多线程处理
           - React.js/Spring-Boot(java 8),Django 3/Oracle,PostgreSQL/Docker/Windows Server
 
       - layout: top-middle
