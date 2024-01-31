@@ -118,22 +118,37 @@ content:
           - 内部系统全自动风险监控
           - 日更新Batch,全自动化更新服务
           - React.js/Spring-Boot(java 11)/Oracle
+
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: SK Hynix
+        link: https://www.skhynix.com/
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          半导体公司内部电子合约系统(全世界20万名以上员工使用,日PV十万级)
+        description: |
+          - 涉密公司内部数据库联动,最上级信息安全系统
+          - 系统搭建,设计,开发,项目管理,项目维护独立完成
+          - 国家核心技术保护项目,高保密性(국가핵심기술보호),高可靠性,高性能
+          - 大型Daily Batch构建,30+其他内部系统联动调用
+          - React.js/Spring-Boot(java 8),Django 3/Oracle,PostgreSQL/Docker/Windows Server
  
-
-
-
-
 
   - title: Education
     layout: list
     content:
       - layout: top-left
         title: 建国大学(건국대학교)
-        sub_title: Software Engineering () 
+        sub_title: Software Engineering
         caption: 2016-2020
         # quote: >
         #   Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
+        description: |
           - 建国大学计算机科学系软件工学科
           - 毕业设计,毕业论文获奖
   
