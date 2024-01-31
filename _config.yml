@@ -52,8 +52,8 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile1.jpg
 about_content : | 
-  abput me 
-  - about me 
+拥有5年经验的全栈开发,专注于Java/Python后端服务和React.js前端服务,熟悉AWS托管环境。曾为多家韩国大企业提供企业级定制服务,参与了从系统设计规划、开发到日程管理的全过程
+
 # about_content: | # this will include new lines to allow paragraphs
 #   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -68,11 +68,21 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        title: BusinessOn 
+        sub_title: 全栈开发
+        caption: (2022-至今)
+        link: https://www.businesson.co.kr/
+        quote: >
+          Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description of role
+
+      - layout: left
+        title: Glosign
+        sub_title: 后端开发
+        caption: 2019-2022(公司合并非离职)
+        link: https://www.glosign.com
         quote: >
           Short description of the company (optional)
         description: | # this will include new lines to allow paragraphs
@@ -92,7 +102,7 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          产品预约购买后，电子签约系统(B2B/B2C,会员数1000万级,年销售5000亿韩元)
+          产品预约购买后,电子签约系统(B2B/B2C,会员数1000万级,年销售5000亿韩元)
         description: | # this will include new lines to allow paragraphs
           - 公司内部ERP联动
           - 个人信息保护法内部网络独立
@@ -164,7 +174,7 @@ content:
     layout: list
     content:
       - layout: top-left
-        title: 建国大学(건국대학교)
+        title: 建国大学(Konkuk)
         sub_title: Software Engineering
         caption: 2016-2020
         # quote: >
