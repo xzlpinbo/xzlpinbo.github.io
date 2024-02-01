@@ -186,12 +186,49 @@ content:
           - 毕业设计,毕业论文获奖
   
   
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+  - title: Skills
+    layout: list
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+    content:
+      - layout: top-left
+        title: Front-End
+        sub_title: Software Engineering
+        caption: 2016-2020
+        # quote: >
+        #   Short institution or course description (optional)
+        description: |
+          - 建国大学计算机科学系软件工学科
+          - 毕业设计,毕业论文获奖
+
+      - layout: top-left
+        title: Back-End
+        sub_title: Software Engineering
+        caption: 2016-2020
+        # quote: >
+        #   Short institution or course description (optional)
+        description: |
+          - 建国大学计算机科学系软件工学科
+          - 毕业设计,毕业论文获奖
+
+      - layout: top-left
+        title: DevOps
+        sub_title: Software Engineering
+        caption: 2016-2020
+        # quote: >
+        #   Short institution or course description (optional)
+        description: |
+          - 建国大学计算机科学系软件工学科
+          - 毕业设计,毕业论文获奖
+
+      - layout: top-left
+        title: ETC
+        sub_title: Software Engineering
+        caption: 2016-2020
+        # quote: >
+        #   Short institution or course description (optional)
+        description: |
+          - 建国大学计算机科学系软件工学科
+          - 毕业设计,毕业论文获奖
 
 # Footer
 footer_show_references: true
