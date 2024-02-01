@@ -70,33 +70,33 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: left
-        title: BusinessOn 
-        sub_title: 全栈开发
-        caption: (2022-至今)
-        link: https://www.businesson.co.kr/
-        quote: >
-         韩上市B2B企业, 电子发票解决方案服务
-        description: | # this will include new lines to allow paragraphs
-          -
-          -
-          -
-          -
-          -
+      # - layout: left
+      #   title: BusinessOn 
+      #   sub_title: 全栈开发
+      #   caption: (2022-至今)
+      #   link: https://www.businesson.co.kr/
+      #   quote: >
+      #    韩上市B2B企业, 电子发票解决方案服务
+      #   description: | # this will include new lines to allow paragraphs
+      #     -
+      #     -
+      #     -
+      #     -
+      #     -
 
-      - layout: left
-        title: Glosign
-        sub_title: 后端开发
-        caption: 2019-2022(公司合并非离职)
-        link: https://www.glosign.com
-        quote: >
-          初创企业, 创业初期成员(MAU )
-        description: | # this will include new lines to allow paragraphs
-          -
-          -
-          -
-          -
-          -
+      # - layout: left
+      #   title: Glosign
+      #   sub_title: 后端开发
+      #   caption: 2019-2022(公司合并非离职)
+      #   link: https://www.glosign.com
+      #   quote: >
+      #     初创企业, 创业初期成员(MAU )
+      #   description: | # this will include new lines to allow paragraphs
+      #     -
+      #     -
+      #     -
+      #     -
+      #     -
           
   
   - title: Projects # Title for the section
