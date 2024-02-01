@@ -76,9 +76,13 @@ content:
         caption: (2022-至今)
         link: https://www.businesson.co.kr/
         quote: >
-          Short description of the company (optional)
+         韩上市B2B企业, 电子发票解决方案服务
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          -
+          -
+          -
+          -
+          -
 
       - layout: left
         title: Glosign
@@ -86,9 +90,14 @@ content:
         caption: 2019-2022(公司合并非离职)
         link: https://www.glosign.com
         quote: >
-          Short description of the company (optional)
+          初创企业, 创业初期成员(MAU )
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          -
+          -
+          -
+          -
+          -
+          
   
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -199,7 +208,7 @@ content:
         description: |
           - React.js
           - Next.js
-          - Node,Npm
+          - Node, Npm, Webpack
 
       - layout: top-left
         title: Back-End
@@ -234,7 +243,7 @@ content:
         description: |
           - Teams, Slack, Notion, Jira
           - git
-          - VsCode, IntelliJ IDEA
+          - VS Code, IntelliJ IDEA
 
 # Footer
 footer_show_references: true
