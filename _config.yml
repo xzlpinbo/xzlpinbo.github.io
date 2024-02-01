@@ -192,43 +192,49 @@ content:
     content:
       - layout: top-left
         title: Front-End
-        sub_title: Software Engineering
-        caption: 2016-2020
+        # sub_title: Software Engineering
+        # caption: 2016-2020
         # quote: >
         #   Short institution or course description (optional)
         description: |
-          - 建国大学计算机科学系软件工学科
-          - 毕业设计,毕业论文获奖
+          - React.js
+          - Next.js
+          - Node,Npm
 
       - layout: top-left
         title: Back-End
-        sub_title: Software Engineering
-        caption: 2016-2020
+        # sub_title: Software Engineering
+        # caption: 2016-2020
         # quote: >
         #   Short institution or course description (optional)
         description: |
-          - 建国大学计算机科学系软件工学科
-          - 毕业设计,毕业论文获奖
+          - Java, Spring-boot, Spring MVC, Spring Batch, Spring Security, Spring Data JPA, Spring Cloud AWS
+          - JPA, Querydsl, Hibernate, JPQL
+          - Python Django
+          - Gradle, Maven
 
       - layout: top-left
         title: DevOps
-        sub_title: Software Engineering
-        caption: 2016-2020
+        # sub_title: Software Engineering
+        # caption: 2016-2020
         # quote: >
         #   Short institution or course description (optional)
         description: |
-          - 建国大学计算机科学系软件工学科
-          - 毕业设计,毕业论文获奖
+          - Oracle, PostgreSQL
+          - AWS RDS, S3, EC2
+          - Nginx, Tomcat
+          - Linux (centOS,ubuntu,Red-hat)
 
       - layout: top-left
         title: ETC
-        sub_title: Software Engineering
-        caption: 2016-2020
+        # sub_title: Software Engineering
+        # caption: 2016-2020
         # quote: >
         #   Short institution or course description (optional)
         description: |
-          - 建国大学计算机科学系软件工学科
-          - 毕业设计,毕业论文获奖
+          - Teams, Slack, Notion, Jira
+          - git
+          - VsCode, IntelliJ IDEA
 
 # Footer
 footer_show_references: true
