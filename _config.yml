@@ -211,7 +211,7 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          公司服务平台的历史代码重构,从python 迁移至Java
+          公司服务平台的历史代码重构,从 python 迁移至 Java
         description: |
           - 初创期Django2 代码重构
           - 数据库不合理架构重构
