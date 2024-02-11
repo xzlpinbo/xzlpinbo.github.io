@@ -196,14 +196,14 @@ content:
         description: |
           - 高流量高并发高可用系统
           - 千万级压测和实时监控
-          - 毫秒级适配Slow query 调优,JVM调优,WAS/WEB/DB多集群服务器调优
+          - 毫秒级适配 Slow query 调优,JVM 调优, WAS/WEB/DB多集群服务器调优
           - 贷款类项目,各项数据审核自动化,个人认证自动化等政府机关API调用适配
           - React.js/Spring-Boot(java 8),Django 3/Oracle,PostgreSQL
 
       - layout: top-middle
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: SaaS平台Python Django项目 JAVA SpringBoot 迁移重构
+        title: SaaS平台 Python Django 项目 JAVA SpringBoot 迁移重构
         link: '' 
         # link_text: Link Text
         # additional_links:
@@ -222,7 +222,7 @@ content:
       - layout: top-middle
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: 公司内部Back-Office 系统(职员用管理系统)
+        title: 公司内部 Back-Office 系统(职员用管理系统)
         link: ''
         # link_text: Link Text
         # additional_links:
@@ -230,7 +230,7 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          内部BO系统,管理所有服务,每月数据自动计算等
+          内部 BO 系统,管理所有服务,每月数据自动计算等
         description: |
           - 为通过 IOS27001认证构建此管理系统
           - 公司内部用,保密和IP监控系统
