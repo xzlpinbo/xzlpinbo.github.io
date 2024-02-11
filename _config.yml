@@ -206,7 +206,7 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: SaaS平台Python Django项目 JAVA SpringBoot 迁移重构
-        link: - 
+        link: '' 
         # link_text: Link Text
         # additional_links:
         #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
