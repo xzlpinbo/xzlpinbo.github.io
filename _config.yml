@@ -225,7 +225,7 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: 公司内部Back-Office 系统(职员用管理系统)
-        link: - 
+        link: ''
         # link_text: Link Text
         # additional_links:
         #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
