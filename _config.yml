@@ -270,6 +270,7 @@ content:
         description: |
           - React.js
           - Next.js
+          - Nest.js
           - Node, Npm, Webpack
 
       - layout: top-left
