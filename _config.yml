@@ -57,6 +57,7 @@ about_content : |
     曾为多家韩国大企业及政府部门提供企业级定制服务,参与了从系统设计规划、开发到日程管理的全过程
 
     "Good code is its own best documentation"
+
     优秀的代码应该是清晰易懂的，无需额外注释或解释，即使是初学者亦能理解
     优秀的代码应该具有良好的结构、命名清晰、逻辑简单明了，使得它不仅对于编写者自己，也易于其他人的阅读和理解
 
@@ -82,11 +83,9 @@ content:
         quote: >
          韩上市B2B企业, 电子发票解决方案服务,电子合同解决方案服务
         description: | # this will include new lines to allow paragraphs
-          -
-          -
-          -
-          -
-          -
+          - 全韩覆盖率百分之90以上
+          - 税务系统,高并发高可靠
+
 
       - layout: left
         title: Glosign
@@ -96,11 +95,10 @@ content:
         quote: >
           初创企业, 创业初期成员(日PV十万级)
         description: | # this will include new lines to allow paragraphs
-          -
-          -
-          -
-          -
-          -
+          - 初创公司,从职员3名到合并收购
+          - 法律认证电子合同服务
+
+
           
   
   - title: Projects # Title for the section
