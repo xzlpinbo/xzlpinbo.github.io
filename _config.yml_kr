@@ -77,7 +77,7 @@ content:
     layout: list
     content:
       - layout: left
-        title: BusinessOn 
+        title: 주식회사 비즈니스온 컴뮤니케이션
         sub_title: 풀스택 개발
         caption: (2022-현재)
         link: https://www.businesson.co.kr/
@@ -89,7 +89,7 @@ content:
 
 
       - layout: left
-        title: Glosign
+        title: 주식회사 글로싸인
         sub_title: 백엔드 개발 
         caption: 2019-2022(합병인수)
         link: https://www.glosign.com
