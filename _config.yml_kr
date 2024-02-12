@@ -138,8 +138,8 @@ content:
         description: | 
           - 사내 데이터베이스 연동, 1랩 보안 시스템
           - 프론트 / 백엔드 개발, CI/CD
-          - 内部系统全自动风险监控
-          - 日更新Batch,全自动化更新服务,Slow query 调优,JVM调优
+          - 로깅 및 자동 모니터링 구축
+          - JVM调优 일배치, 자동 인사정보등 업데이트, SLOW QUERY 튜닝, JVM 튜닝
           - React.js/Spring-Boot(java 11)/Oracle
 
       - layout: top-middle
@@ -153,12 +153,12 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          半导体公司内部电子合约系统(全世界20万名以上员工使用,日PV十万级)
+          SK 하이닉스 보안서약서 시스템
         description: |
-          - 涉密公司内部数据库联动,最上级信息安全系统
-          - 系统搭建,设计,开发,项目管理,项目维护独立完成
-          - 企业适配Slow query 调优,JVM调优,WAS/WEB/DB多集群服务器调优
-          - 大型Daily Batch构建,30+其他内部系统联动调用,多线程处理
+          - 국가 핵심 기술 보호법에 따라 
+          - 시스템 구축, 설계, 인프라 개발 및 일정관리 징행
+          - 기업 최적화 Slow query 튜닝, JVM튜닝, WAS/WEB/DB다중화 구축 및 관리
+          - 대규모 일배치 및 멀티 쓰레드 처리, 내부 타 시스템 연동 및 기술 지원
           - React.js/Spring-Boot(java 8),Django 3/Oracle,PostgreSQL/Docker/Windows Server
 
       - layout: top-middle
@@ -172,9 +172,9 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          租车签约/租车过户电子化系统(金融类系统,年销售3万亿韩元)
+          렌탈 계약서, 승계계약서(금용시스템)
         description: |
-          - 公司内部ERP联动,内部系统资源调用
+          - 내부 ERP 시스템 연동
           - 系统搭建,设计,开发,项目管理,项目维护独立完成
           - 韩国国家金融监理会联动,每月自动划款系统认证联动
           - 金融类项目标准完成安全和保密工作
@@ -192,7 +192,7 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          韩政府部门网站(全韩企业法人使用,日PV千万级)
+          정부 및 공공 기관, 코로나 소상공인 대출 지원 계액 시스템 구축
         description: |
           - 高流量高并发高可用系统
           - 千万级压测和实时监控
