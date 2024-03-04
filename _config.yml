@@ -6,7 +6,7 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: ZL XIA
+name: 夏子雷
 title: Full Stack Engineer
 email: xiazilei1994@gmail.com
 # email_title: Email (Email title override)
@@ -20,7 +20,7 @@ darkmode: never
 
 # Social links
 # twitter_username: jekyllrb
-# github_username:  jekyll
+# github_username:  https://xzlpinbo.github.io/
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
@@ -52,23 +52,14 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile1.jpg
 about_content : | 
-    건국대학교 소프트웨어학과에서 우수 외국인학생으로 졸업한 중국인 유학생이였습니다.
+    拥有5年经验的全栈开发,专注于Java/Python后端服务和React.js前端服务,熟悉AWS INFRA环境 
 
-    한국에 10년동안 거주했으며 대한 민국 영주권 취득하였습니다.
-
-    한국어 능력 시험도 최고등급으로 합격하여 자격증 소지하고 있습니다.
-
-    현업 PM 또한 기업 IT 담당자 인정하는 높은 커뮤니케이션 능력으로 자부합니다.
-
-    5년 경력을 보유한 풀스택 개발자로서, 주로 Java/Python 백엔드 서비스와 React.js 프론트엔드 서비스에 집중하며, AWS INFRA 환경에 익숙합니다.
-
-    대규모 프로젝트를 진행하면서 데이터베이스 그리고 SLOW QUERY등 성능 튜닝하면서 다양한 오류도 만나봤습니다.
-    
-    여러 대기업 및 공공 기관에 기업용 맞춤 솔루션 서비스를 구축한 경험이 있으며, 시스템 설계 계획부터 개발 및 일정 관리까지 전과정에 참여했습니다.
+    曾为多家韩国大企业及政府部门提供企业级定制服务,参与了从系统设计规划、开发到日程管理的全过程
 
     "Good code is its own best documentation"
 
-    우수한 코드는 명확하고 파악하기 쉬우며, 주석이나 설명없이도 초보자가 쉽게 이해할 수 있다는 마인드로 항상 코드 품질에 대하여 신경쓰이면서 개발해왔습니다.
+    优秀的代码应该是清晰易懂的，无需额外注释或解释，即使是初学者亦能理解
+    优秀的代码应该具有良好的结构、命名清晰、逻辑简单明了，使得它不仅对于编写者自己，也易于其他人的阅读和理解
 
 # about_content: | # this will include new lines to allow paragraphs
 #   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
@@ -85,27 +76,18 @@ content:
     layout: list
     content:
       - layout: left
-        title: 주식회사 비즈니스온 컴뮤니케이션
-        sub_title: 풀스택 개발
-        caption: (2022-현재)
+        title: BusinessOn 
+        sub_title: 全栈开发
+        caption: (2022-至今)
         link: https://www.businesson.co.kr/
         quote: >
-         코스닥 상장기업, 세금계산서 솔루션 제공 업체, 전자계약 솔루선 업체
-        description: |
-          - 국내 커버리지가 90% 이상입니다
-          - 세무 시스템은 고성능 및 고신뢰성
+         韩上市B2B企业, 电子发票解决方案服务,电子合同解决方案服务
+        description: | # this will include new lines to allow paragraphs
+          - 全韩覆盖率百分之90以上
+          - 税务系统,高并发高可靠
+          - 法律认证电子合同服务
 
-
-      - layout: left
-        title: 주식회사 글로싸인
-        sub_title: 백엔드 개발 
-        caption: 2019-2022(합병인수)
-        link: https://www.glosign.com
-        quote: >
-          스타트업(Daily PV - 100,000)
-        description: |
-          - 기업 맞춤형 전자계약 서비스 솔루션 제공
-          - 국내 최대 규모 전자계약 서비스 제공
+          
 
 
           
@@ -116,7 +98,7 @@ content:
       - layout: top-middle
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: 청호나이스
+        title: CHUNGHO
         link: https://www.chungho.co.kr/
         # link_text: Link Text
         # additional_links:
@@ -124,17 +106,18 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          상품 에약 구매 후, 전자계약 서비스 솔루션 (B2B/B2C,SI)
+          产品预约购买后,电子签约系统(B2B/B2C,会员数1000万级,年销售5000亿韩元)
         description: | # this will include new lines to allow paragraphs
-          - 내부 대형 ERP 연동
-          - 게인정보보호법에 따라 개안정보 암호화 및 문서 암호화
-          - 인프라, 시스템 설계, 일정 관리 및 프론트/백엔드 개발 진행
-          - 모니터링 시스템 연동 및 구축
+          - 公司内部ERP联动
+          - 个人信息保护法内部网络独立
+          - 系统搭建,设计,开发,项目管理独立完成
+          - 公司内部自动化报错监控(lamda)
           - React.js/Spring-Boot(java 11)/PostgreSQL/Docker
 
       - layout: top-middle
-        border: weak 
-        title: LG 앤너지 솔루션
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: LG新能源
         link: https://www.lgensol.com/zh/index
         # link_text: Link Text
         # additional_links:
@@ -142,12 +125,12 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          사내 전자 서약 시스템(전세계 12만명 임직원이 사용중인 시스템) 
-        description: | 
-          - 사내 데이터베이스 연동, 1랩 보안 시스템
-          - 프론트 / 백엔드 개발, CI/CD
-          - 로깅 및 자동 모니터링 구축
-          - 일 배치, 자동 인사 정보등 업데이트, SLOW QUERY 튜닝, JVM 튜닝
+          公司内部电子审批/合约/誓约签名系统(全世界12万名员工使用,日PV十万级)
+        description: | # this will include new lines to allow paragraphs
+          - 公司内部ERP联动,1级安保系统
+          - 前后端开发,CI/CD
+          - 内部系统全自动风险监控
+          - 日更新Batch,全自动化更新服务,Slow query 调优,JVM调优
           - React.js/Spring-Boot(java 11)/Oracle
 
       - layout: top-middle
@@ -161,18 +144,18 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          SK 하이닉스 보안서약서 시스템
+          半导体公司内部电子合约系统(全世界20万名以上员工使用,日PV十万级)
         description: |
-          - 국가 핵심 기술 보호법에 따라 설계
-          - 시스템 구축, 설계, 인프라 개발 및 일정관리 징행
-          - 기업 최적화 Slow query 튜닝, JVM튜닝, WAS/WEB/DB다중화 구축 및 관리
-          - 대규모 일배치 및 멀티쓰레드 처리, 내부 타 시스템 연동 및 기술 지원
+          - 涉密公司内部数据库联动,最上级信息安全系统
+          - 系统搭建,设计,开发,项目管理,项目维护独立完成
+          - 企业适配Slow query 调优,JVM调优,WAS/WEB/DB多集群服务器调优
+          - 大型Daily Batch构建,30+其他内部系统联动调用,多线程处理
           - React.js/Spring-Boot(java 8),Django 3/Oracle,PostgreSQL/Docker/Windows Server
 
       - layout: top-middle
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: 롯데 랜탈
+        title: Lotte-rental
         link: https://www.lotterental.com/
         # link_text: Link Text
         # additional_links:
@@ -180,19 +163,19 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          렌탈 계약서, 승계계약서(금용시스템)
+          租车签约/租车过户电子化系统(金融类系统,年销售3万亿韩元)
         description: |
-          - 내부 ERP 시스템 연동
-          - 시스템 구축, 설계, 인프라 개발 및 일정관리 징행
-          - 금결원 연동, 자동 이체 시스템 연동
-          - 금용기관 시스템, 보안 강화
+          - 公司内部ERP联动,内部系统资源调用
+          - 系统搭建,设计,开发,项目管理,项目维护独立完成
+          - 韩国国家金融监理会联动,每月自动划款系统认证联动
+          - 金融类项目标准完成安全和保密工作
           - React.js/Spring-Boot(java 8)/PostgreSQL
 
           
       - layout: top-middle
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: 소상공인진흥공단
+        title: 韩国小企业市场促进公司
         link: https://www.semas.or.kr/web/main/index.kmdc
         # link_text: Link Text
         # additional_links:
@@ -200,18 +183,18 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          정부 및 공공 기관, 코로나 소상공인 대출 지원 계액 시스템 구축
+          韩政府部门网站(全韩企业法人使用,日PV千万级)
         description: |
-          - 대용량 트래픽, 고가용성, 고처리량, 그리고 지연시간 최소화
-          - 백만 CCU 시스템으로 다양한 튜닝
-          - 최적화 Slow query 튜닝, JVM튜닝, WAS/WEB/DB 다중화 구축 및 관리
-          - 정부 기관, 본인 인증등 다양한 시스템 및 API 연동
+          - 高流量高并发高可用系统
+          - 千万级压测和实时监控
+          - 毫秒级适配 Slow query 调优,JVM 调优, WAS/WEB/DB多集群服务器调优
+          - 贷款类项目,各项数据审核自动化,个人认证自动化等政府机关API调用适配
           - React.js/Spring-Boot(java 8),Django 3/Oracle,PostgreSQL
 
       - layout: top-middle
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: SaaS Python Django 프로젝트 JAVA SpringBoot 리뉴얼
+        title: SaaS平台 Python Django 项目 JAVA SpringBoot 迁移重构
         link: '' 
         # link_text: Link Text
         # additional_links:
@@ -219,18 +202,18 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          레거시 Django 백엔드 코드 자바로 리뉴얼, 데이터 베이스 구축 변경 및 테이블 정리
+          公司服务平台的历史代码重构,从 python 迁移至 Java
         description: |
-          - OpenApi, SDK 등 전체 시스템 리뉴얼
-          - 데이터베이스 구축 재설계 
-          - TEST CASE 작성
-          - CI/CD 구축
+          - 初创期Django2 代码重构
+          - 数据库不合理架构重构
+          - TEST CASE 部署前自动测试单元构建
+          - CI/CD 自动化部署和自动监控
           - Spring-Boot(java 8),Django 2/PostgreSQL
 
       - layout: top-middle
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: 사내 Back-Office 시스템
+        title: 公司内部 Back-Office 系统(职员用管理系统)
         link: ''
         # link_text: Link Text
         # additional_links:
@@ -238,12 +221,12 @@ content:
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          사내 BO 시스템,재무 정보등 월간 통계 보고 자동 생성
+          内部 BO 系统,管理所有服务,每月数据自动计算等
         description: |
-          - IOS27001 심사 통과
-          - 내부 네트워크망 인프라
-          - 사내 알림 및 이메일, 알림톡 연동
-          - CI/CD 자동화
+          - 为通过 IOS27001认证构建此管理系统
+          - 公司内部用,保密和IP监控系统
+          - 内部网络专用架构
+          - CI/CD 自动化部署和自动监控
           - React.js/Django 3/PostgreSQL
 
           
@@ -253,16 +236,16 @@ content:
     layout: list
     content:
       - layout: top-left
-        title: 건국대학교
+        title: 建国大学(Konkuk)
         sub_title: Software Engineering
-        caption: 2017-2020
+        caption: 2016-2020
         # quote: >
         #   Short institution or course description (optional)
         description: |
-          - 건국대학교 컴퓨터 공헉부 소프트웨어학과
-          - 졸업 설계 및 졸업 논문 수상
-          - 우수 외국인 학생 장학금 수상
-          - 우수한 한국어 학업 장학금 수상
+          - 建国大学计算机科学系软件工学科
+          - 毕业设计,毕业论文获奖
+          - 优秀外国人学生奖学金
+          - 优秀韩语奖学金
   
   
   - title: Skills
