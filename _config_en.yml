@@ -1,0 +1,301 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: ZL XIA
+title: Full Stack Engineer
+email: xiazilei1994@gmail.com
+# email_title: Email (Email title override)
+# phone: '82'
+# phone_title: Phone (Phone title override)
+website: https://xzlpinbo.github.io/
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+# twitter_username: jekyllrb
+# github_username:  jekyll
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile1.jpg
+about_content : | 
+    Graduated as a distinguished international student from Konkuk University's Software Department, specializing in IT solutions.
+
+    Possess over a decade of residency in South Korea, complemented by permanent residency status, demonstrating long-term commitment and cultural integration.
+
+    Achieved the highest grade in the Korean Language Proficiency Test, certifying advanced communication skills.
+
+    Excel as a Project Manager, recognized for exceptional communication skills within the IT sector.
+
+    Experienced in leading small-scale teams, demonstrating strong leadership and team management skills.
+
+    Possess excellent communication skills, capable of engaging effectively with both technical and non-technical stakeholders.
+
+    Boast five years of comprehensive experience as a Full-Stack Developer, with a focus on Java/Python backend and React.js frontend development within AWS infrastructure.
+
+    Proven track record in performance optimization, handling database management, and resolving slow queries within large-scale projects.
+    
+    Demonstrated expertise in delivering custom solutions for leading corporations and public entities, encompassing system design, development, and project management.
+
+    Skilled in conflict resolution and negotiation, ensuring smooth project progression and team dynamics.
+
+    Adhere to the philosophy that 'Good code is its own best documentation', prioritizing clarity and simplicity in code to ensure accessibility and understandability for all proficiency levels.
+
+    Adept at time management and prioritizing tasks to meet deadlines and deliver high-quality work.
+
+# about_content: | # this will include new lines to allow paragraphs
+#   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+
+#   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+#     - Lists
+#     - Tables
+#     - <a href="google.com">Links</a>
+#     - Images ![alt text](/images/landscape-trees.jpg "Trees")
+
+content:
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: BusinessOn Communication Co., Ltd.
+        sub_title: Full Stack Engineer
+        caption: (2019 ~ Now)
+        link: https://www.businesson.co.kr/
+        quote: >
+         KOSDAQ-listed company, tax invoice solution provider, electronic contract solution company.
+        description: |
+          - Domestic coverage exceeds 90%
+          - The tax system is high-performance and highly reliable.
+
+
+  - title: Projects
+    layout: list
+    content:
+      - layout: top-middle
+        border: weak
+        title: 청호나이스(Chung Ho)
+        link: https://www.chungho.co.kr/
+        quote: >
+          After purchasing product reservations, electronic contract service solutions (B2B/B2C, SI) are offered
+        description: |
+          - Integration with large internal ERPs
+          - Personal information encryption and document encryption in accordance with the Personal Information Protection Act
+          - Progress on infrastructure, system design, schedule management, and front/back-end development
+          - Integration and construction of monitoring systems
+          - Served as the project leader, coordinating cross-functional teams to ensure timely and within-budget delivery
+          - React.js/Spring-Boot(java 11)/PostgreSQL
+
+      - layout: top-middle
+        border: weak 
+        title: LG 앤너지 솔루션(LG Energy Solution, LTD.)
+        link: https://www.lgensol.com/zh/index
+        quote: >
+          In-house electronic pledge system (used by 120,000 employees worldwide)
+        description: | 
+          - Integration with the in-house database, Highest-Level security system
+          - Front-end / Back-end development, CI/CD
+          - Construction of logging and automatic monitoring
+          - Daily batch, automatic updates of personnel information, SLOW QUERY tuning, JVM tuning
+          - React.js/Spring-Boot(java 11)/Oracle
+
+
+      - layout: top-middle
+        border: weak 
+        title: SK Hynix
+        link: https://www.skhynix.com/
+        quote: >
+          SK Hynix Security Pledge System
+        description: |
+          - Lead project development manager and project management director
+          - Designed in accordance with the Act on the Protection of National Core Technologies
+          - System construction, design, infrastructure development, and schedule management
+          - Enterprise optimization: Slow query tuning, JVM tuning, and management of WAS/WEB/DB multiplications
+          - Large-scale daily batch processing and multi-threading, integration and technical support with other internal systems
+          - React.js/Spring-Boot(java 8),Django 3/Oracle,PostgreSQL/Docker/Windows Server
+
+      - layout: top-middle
+        border: weak
+        title: 롯데 랜탈(Lotte-Rental)
+        link: https://www.lotterental.com/
+        quote: >
+          Rental contract, succession contract (financial system)
+        description: |
+          - Lead project development manager
+          - Integration with internal ERP systems
+          - System construction, design, infrastructure development, and schedule management
+          - Integration with Korea Financial Telecommunications & Clearings Institute, automatic transfer system integration
+          - Financial institution system, enhanced security
+          - React.js/Spring-Boot(java 8)/PostgreSQL
+
+          
+      - layout: top-middle
+        border: weak
+        title: 소상공인진흥공단(Small Enterprise & MArket Service, Korean GOV System)
+        link: https://www.semas.or.kr/web/main/index.kmdc
+        quote: >
+          Construction of a loan support system for small businesses affected by COVID-19, by government and public institutions
+        description: |
+          - Handling large traffic volumes, high availability, high throughput, and minimal latency
+          - Tuning for a system supporting millions of concurrent users
+          - Optimized Slow query tuning, JVM tuning, and the construction and management of WAS/WEB/DB multiplications
+          - Integration of various systems and APIs including government agencies and identity verification
+          - React.js/Spring-Boot(java 8),Django 3/Oracle,PostgreSQL
+
+      - layout: top-middle
+        border: weak
+        title: SaaS Python Django Project Renewal with Java SpringBoot
+        link: '' 
+        quote: >
+          Renewed the legacy Django backend code with Java, altered the database construction, and organized tables
+        description: |
+          - Complete system renewal including OpenAPI and SDK
+          - Redesign of database construction
+          - Writing TEST CASES
+          - Construction of CI/CD
+          - Spring-Boot(java 8),Django 2/PostgreSQL
+
+      - layout: top-middle
+        border: weak 
+        title: Internal Back-Office System
+        link: ''
+        quote: >
+          Internal BO system automatically generates monthly statistical reports including financial information
+        description: |
+          - Passed IOS27001 audit
+          - Internal network infrastructure
+          - Integration of in-house notifications, emails, and Alert in Kakaotalk
+          - Automated CI/CD
+          - React.js/Django 3/PostgreSQL
+
+          
+ 
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-left
+        title: Konkyk Univ.
+        sub_title: Software Engineering
+        caption: 2017-2020
+        # quote: >
+        #   Short institution or course description (optional)
+        description: |
+          - Department of Software, College of Computer Science, Konkuk University
+          - Graduation project and thesis award
+          - Awarded scholarship for outstanding international students
+          - Awarded scholarship for excellent academic performance in Korean
+  
+  
+  - title: Skills
+    layout: list
+
+    content:
+      - layout: top-left
+        title: Front-End
+        # sub_title: Software Engineering
+        # caption: 2016-2020
+        # quote: >
+        #   Short institution or course description (optional)
+        description: |
+          - React.js
+          - Next.js
+          - Nest.js
+          - Node, Npm, Webpack, Vite
+
+      - layout: top-left
+        title: Back-End
+        # sub_title: Software Engineering
+        # caption: 2016-2020
+        # quote: >
+        #   Short institution or course description (optional)
+        description: |
+          - Java, Spring-boot, Spring MVC, Spring Batch, Spring Security, Spring Data JPA, Spring Cloud AWS
+          - JPA, Querydsl, Hibernate, JPQL
+          - Python Django
+          - Gradle, Maven
+          - Docker, Docker-Compose
+
+      - layout: top-left
+        title: DevOps
+        # sub_title: Software Engineering
+        # caption: 2016-2020
+        # quote: >
+        #   Short institution or course description (optional)
+        description: |
+          - Oracle, PostgreSQL
+          - AWS RDS, S3, EC2
+          - Nginx, Tomcat
+          - Linux (centOS,ubuntu,Red-hat)
+
+      - layout: top-left
+        title: ETC
+        # sub_title: Software Engineering
+        # caption: 2016-2020
+        # quote: >
+        #   Short institution or course description (optional)
+        description: |
+          - Teams, Slack, Notion, Jira
+          - git
+          - VS Code, IntelliJ IDEA
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
