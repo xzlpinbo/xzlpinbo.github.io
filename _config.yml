@@ -93,7 +93,7 @@ content:
       - layout: left
         title: BusinessOn Communication Co., Ltd.
         sub_title: Full Stack Engineer
-        caption: (2019-현재)
+        caption: (2019 ~ Now)
         link: https://www.businesson.co.kr/
         quote: >
          KOSDAQ-listed company, tax invoice solution provider, electronic contract solution company.
@@ -152,70 +152,53 @@ content:
         title: 롯데 랜탈(Lotte-Rental)
         link: https://www.lotterental.com/
         quote: >
-          렌탈 계약서, 승계계약서(금용시스템)
+          Rental contract, succession contract (financial system)
         description: |
-          - 내부 ERP 시스템 연동
-          - 시스템 구축, 설계, 인프라 개발 및 일정관리 징행
-          - 금결원 연동, 자동 이체 시스템 연동
-          - 금용기관 시스템, 보안 강화
+          - Lead project development manager
+          - Integration with internal ERP systems
+          - System construction, design, infrastructure development, and schedule management
+          - Integration with Korea Financial Telecommunications & Clearings Institute, automatic transfer system integration
+          - Financial institution system, enhanced security
           - React.js/Spring-Boot(java 8)/PostgreSQL
 
           
       - layout: top-middle
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: 소상공인진흥공단
+        border: weak
+        title: 소상공인진흥공단(Small Enterprise & MArket Service, Korean GOV System)
         link: https://www.semas.or.kr/web/main/index.kmdc
-        # link_text: Link Text
-        # additional_links:
-        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #     icon: fab fa-github
-        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          정부 및 공공 기관, 코로나 소상공인 대출 지원 계액 시스템 구축
+          Construction of a loan support system for small businesses affected by COVID-19, by government and public institutions
         description: |
-          - 대용량 트래픽, 고가용성, 고처리량, 그리고 지연시간 최소화
-          - 백만 CCU 시스템으로 다양한 튜닝
-          - 최적화 Slow query 튜닝, JVM튜닝, WAS/WEB/DB 다중화 구축 및 관리
-          - 정부 기관, 본인 인증등 다양한 시스템 및 API 연동
+          - Handling large traffic volumes, high availability, high throughput, and minimal latency
+          - Tuning for a system supporting millions of concurrent users
+          - Optimized Slow query tuning, JVM tuning, and the construction and management of WAS/WEB/DB multiplications
+          - Integration of various systems and APIs including government agencies and identity verification
           - React.js/Spring-Boot(java 8),Django 3/Oracle,PostgreSQL
 
       - layout: top-middle
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: SaaS Python Django 프로젝트 JAVA SpringBoot 리뉴얼
+        border: weak
+        title: SaaS Python Django Project Renewal with Java SpringBoot
         link: '' 
-        # link_text: Link Text
-        # additional_links:
-        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #     icon: fab fa-github
-        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          레거시 Django 백엔드 코드 자바로 리뉴얼, 데이터 베이스 구축 변경 및 테이블 정리
+          Renewed the legacy Django backend code with Java, altered the database construction, and organized tables
         description: |
-          - OpenApi, SDK 등 전체 시스템 리뉴얼
-          - 데이터베이스 구축 재설계 
-          - TEST CASE 작성
-          - CI/CD 구축
+          - Complete system renewal including OpenAPI and SDK
+          - Redesign of database construction
+          - Writing TEST CASES
+          - Construction of CI/CD
           - Spring-Boot(java 8),Django 2/PostgreSQL
 
       - layout: top-middle
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: 사내 Back-Office 시스템
+        border: weak 
+        title: Internal Back-Office System
         link: ''
-        # link_text: Link Text
-        # additional_links:
-        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
-        #     icon: fab fa-github
-        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          사내 BO 시스템,재무 정보등 월간 통계 보고 자동 생성
+          Internal BO system automatically generates monthly statistical reports including financial information
         description: |
-          - IOS27001 심사 통과
-          - 내부 네트워크망 인프라
-          - 사내 알림 및 이메일, 알림톡 연동
-          - CI/CD 자동화
+          - Passed IOS27001 audit
+          - Internal network infrastructure
+          - Integration of in-house notifications, emails, and Alert in Kakaotalk
+          - Automated CI/CD
           - React.js/Django 3/PostgreSQL
 
           
@@ -225,16 +208,16 @@ content:
     layout: list
     content:
       - layout: top-left
-        title: 건국대학교
+        title: Konkyk Univ.
         sub_title: Software Engineering
         caption: 2017-2020
         # quote: >
         #   Short institution or course description (optional)
         description: |
-          - 건국대학교 컴퓨터 공헉부 소프트웨어학과
-          - 졸업 설계 및 졸업 논문 수상
-          - 우수 외국인 학생 장학금 수상
-          - 우수한 한국어 학업 장학금 수상
+          - Department of Software, College of Computer Science, Konkuk University
+          - Graduation project and thesis award
+          - Awarded scholarship for outstanding international students
+          - Awarded scholarship for excellent academic performance in Korean
   
   
   - title: Skills
@@ -251,7 +234,7 @@ content:
           - React.js
           - Next.js
           - Nest.js
-          - Node, Npm, Webpack
+          - Node, Npm, Webpack, Vite
 
       - layout: top-left
         title: Back-End
@@ -264,6 +247,7 @@ content:
           - JPA, Querydsl, Hibernate, JPQL
           - Python Django
           - Gradle, Maven
+          - Docker, Docker-Compose
 
       - layout: top-left
         title: DevOps

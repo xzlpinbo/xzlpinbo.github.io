@@ -293,6 +293,7 @@ content:
           - JPA, Querydsl, Hibernate, JPQL
           - Python Django
           - Gradle, Maven
+          - Docker, Docker-Compose
 
       - layout: top-left
         title: DevOps
