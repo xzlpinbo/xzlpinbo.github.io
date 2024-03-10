@@ -52,29 +52,23 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile1.jpg
 about_content : | 
-    Graduated as a distinguished international student from Konkuk University's Software Department, specializing in IT solutions.
+    건국대학교 소프트웨어학과에서 우수 외국인학생으로 졸업한 중국인 유학생이였습니다.
 
-    Possess over a decade of residency in South Korea, complemented by permanent residency status, demonstrating long-term commitment and cultural integration.
+    한국에 10년넘게 거주했으며 대한민국 영주권 취득하였습니다.
 
-    Achieved the highest grade in the Korean Language Proficiency Test, certifying advanced communication skills.
+    한국어 능력 시험도 최고등급으로 합격하여 자격증 소지하고 있습니다.
 
-    Excel as a Project Manager, recognized for exceptional communication skills within the IT sector.
+    현업 PM 또한 기업 IT 담당자 인정하는 높은 커뮤니케이션 능력으로 자부합니다.
 
-    Experienced in leading small-scale teams, demonstrating strong leadership and team management skills.
+    5년 경력을 보유한 풀스택 개발자로서, 주로 Java/Python 백엔드 서비스와 React.js 프론트엔드 서비스에 집중하며, AWS INFRA 환경에 익숙합니다.
 
-    Possess excellent communication skills, capable of engaging effectively with both technical and non-technical stakeholders.
-
-    Boast five years of comprehensive experience as a Full-Stack Developer, with a focus on Java/Python backend and React.js frontend development within AWS infrastructure.
-
-    Proven track record in performance optimization, handling database management, and resolving slow queries within large-scale projects.
+    대규모 프로젝트를 진행하면서 데이터베이스 그리고 SLOW QUERY등 성능 튜닝하면서 다양한 오류도 만나봤습니다.
     
-    Demonstrated expertise in delivering custom solutions for leading corporations and public entities, encompassing system design, development, and project management.
+    팀 리더로 여러 대기업 및 공공 기관에 기업용 맞춤 솔루션 서비스를 구축한 경험이 있으며, 시스템 설계 계획부터 개발 및 일정 관리까지 전과정에 참여했습니다.
 
-    Skilled in conflict resolution and negotiation, ensuring smooth project progression and team dynamics.
+    "Good code is its own best documentation"
 
-    Adhere to the philosophy that 'Good code is its own best documentation', prioritizing clarity and simplicity in code to ensure accessibility and understandability for all proficiency levels.
-
-    Adept at time management and prioritizing tasks to meet deadlines and deliver high-quality work.
+    우수한 코드는 명확하고 파악하기 쉬우며, 주석이나 설명없이도 초보자가 쉽게 이해할 수 있다는 마인드로 항상 코드 품질에 대하여 신경쓰이면서 개발해왔습니다.
 
 # about_content: | # this will include new lines to allow paragraphs
 #   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
@@ -91,114 +85,168 @@ content:
     layout: list
     content:
       - layout: left
-        title: BusinessOn Communication Co., Ltd.
-        sub_title: Full Stack Engineer
-        caption: (2019 ~ Now)
+        title: 주식회사 비즈니스온 컴뮤니케이션
+        sub_title: 풀스택 개발
+        caption: (2022-현재)
         link: https://www.businesson.co.kr/
         quote: >
-         KOSDAQ-listed company, tax invoice solution provider, electronic contract solution company.
+         코스닥 상장기업, 세금계산서 솔루션 제공 업체, 전자계약 솔루선 업체
         description: |
-          - Domestic coverage exceeds 90%
-          - The tax system is high-performance and highly reliable.
+          - 국내 커버리지가 90% 이상입니다
+          - 세무 시스템은 고성능 및 고신뢰성
 
 
-  - title: Projects
-    layout: list
+      - layout: left
+        title: 주식회사 글로싸인
+        sub_title: 백엔드 개발 
+        caption: 2019-2022(합병인수)
+        link: https://www.glosign.com
+        quote: >
+          스타트업(Daily PV - 100,000)
+        description: |
+          - 기업 맞춤형 전자계약 서비스 솔루션 제공
+          - 국내 최대 규모 전자계약 서비스 제공
+
+
+          
+  
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        border: weak
-        title: 청호나이스(Chung Ho)
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 청호나이스
         link: https://www.chungho.co.kr/
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          After purchasing product reservations, electronic contract service solutions (B2B/B2C, SI) are offered
-        description: |
-          - Integration with large internal ERPs
-          - Personal information encryption and document encryption in accordance with the Personal Information Protection Act
-          - Progress on infrastructure, system design, schedule management, and front/back-end development
-          - Integration and construction of monitoring systems
-          - Served as the project leader, coordinating cross-functional teams to ensure timely and within-budget delivery
-          - React.js/Spring-Boot(java 11)/PostgreSQL
+          상품 에약 구매 후, 전자계약 서비스 솔루션 (B2B/B2C,SI)
+        description: | # this will include new lines to allow paragraphs
+          - 개발 리더로 프로젝트 진행
+          - 내부 대형 ERP 연동
+          - 게인정보보호법에 따라 개안정보 암호화 및 문서 암호화
+          - 인프라, 시스템 설계, 일정 관리 및 프론트/백엔드 개발 진행
+          - 모니터링 시스템 연동 및 구축
+          - 프로젝트 리더로서, 시간과 예산 내에서 프로젝트를 성공적으로 인도하기 위해 팀을 조정
+          - React.js/Spring-Boot(java 11)/PostgreSQL/Docker
 
       - layout: top-middle
         border: weak 
-        title: LG 앤너지 솔루션(LG Energy Solution, LTD.)
+        title: LG 앤너지 솔루션
         link: https://www.lgensol.com/zh/index
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          In-house electronic pledge system (used by 120,000 employees worldwide)
+          사내 전자 서약 시스템(전세계 12만명 임직원이 사용중인 시스템) 
         description: | 
-          - Integration with the in-house database, Highest-Level security system
-          - Front-end / Back-end development, CI/CD
-          - Construction of logging and automatic monitoring
-          - Daily batch, automatic updates of personnel information, SLOW QUERY tuning, JVM tuning
+          - 사내 데이터베이스 연동, 1랩 보안 시스템
+          - 프론트 / 백엔드 개발, CI/CD
+          - 로깅 및 자동 모니터링 구축
+          - 일 배치, 자동 인사 정보등 업데이트, SLOW QUERY 튜닝, JVM 튜닝
           - React.js/Spring-Boot(java 11)/Oracle
 
-
       - layout: top-middle
-        border: weak 
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
         title: SK Hynix
         link: https://www.skhynix.com/
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          SK Hynix Security Pledge System
+          SK 하이닉스 보안서약서 시스템
         description: |
-          - Lead project development manager and project management director
-          - Designed in accordance with the Act on the Protection of National Core Technologies
-          - System construction, design, infrastructure development, and schedule management
-          - Enterprise optimization: Slow query tuning, JVM tuning, and management of WAS/WEB/DB multiplications
-          - Large-scale daily batch processing and multi-threading, integration and technical support with other internal systems
+          - 개발 리더로 프로젝트 진행
+          - 국가 핵심 기술 보호법에 따라 설계
+          - 시스템 구축, 설계, 인프라 개발 및 일정관리 징행
+          - 기업 최적화 Slow query 튜닝, JVM튜닝, WAS/WEB/DB다중화 구축 및 관리
+          - 대규모 일배치 및 멀티쓰레드 처리, 내부 타 시스템 연동 및 기술 지원
           - React.js/Spring-Boot(java 8),Django 3/Oracle,PostgreSQL/Docker/Windows Server
 
       - layout: top-middle
-        border: weak
-        title: 롯데 랜탈(Lotte-Rental)
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 롯데 랜탈
         link: https://www.lotterental.com/
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Rental contract, succession contract (financial system)
+          렌탈 계약서, 승계계약서(금용시스템)
         description: |
-          - Lead project development manager
-          - Integration with internal ERP systems
-          - System construction, design, infrastructure development, and schedule management
-          - Integration with Korea Financial Telecommunications & Clearings Institute, automatic transfer system integration
-          - Financial institution system, enhanced security
+          - 내부 ERP 시스템 연동
+          - 시스템 구축, 설계, 인프라 개발 및 일정관리 징행
+          - 금결원 연동, 자동 이체 시스템 연동
+          - 금용기관 시스템, 보안 강화
           - React.js/Spring-Boot(java 8)/PostgreSQL
 
           
       - layout: top-middle
-        border: weak
-        title: 소상공인진흥공단(Small Enterprise & MArket Service, Korean GOV System)
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 소상공인진흥공단
         link: https://www.semas.or.kr/web/main/index.kmdc
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Construction of a loan support system for small businesses affected by COVID-19, by government and public institutions
+          정부 및 공공 기관, 코로나 소상공인 대출 지원 계액 시스템 구축
         description: |
-          - Handling large traffic volumes, high availability, high throughput, and minimal latency
-          - Tuning for a system supporting millions of concurrent users
-          - Optimized Slow query tuning, JVM tuning, and the construction and management of WAS/WEB/DB multiplications
-          - Integration of various systems and APIs including government agencies and identity verification
+          - 대용량 트래픽, 고가용성, 고처리량, 그리고 지연시간 최소화
+          - 백만 CCU 시스템으로 다양한 튜닝
+          - 최적화 Slow query 튜닝, JVM튜닝, WAS/WEB/DB 다중화 구축 및 관리
+          - 정부 기관, 본인 인증등 다양한 시스템 및 API 연동
           - React.js/Spring-Boot(java 8),Django 3/Oracle,PostgreSQL
 
       - layout: top-middle
-        border: weak
-        title: SaaS Python Django Project Renewal with Java SpringBoot
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: SaaS Python Django 프로젝트 JAVA SpringBoot 리뉴얼
         link: '' 
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Renewed the legacy Django backend code with Java, altered the database construction, and organized tables
+          레거시 Django 백엔드 코드 자바로 리뉴얼, 데이터 베이스 구축 변경 및 테이블 정리
         description: |
-          - Complete system renewal including OpenAPI and SDK
-          - Redesign of database construction
-          - Writing TEST CASES
-          - Construction of CI/CD
+          - OpenApi, SDK 등 전체 시스템 리뉴얼
+          - 데이터베이스 구축 재설계 
+          - TEST CASE 작성
+          - CI/CD 구축
           - Spring-Boot(java 8),Django 2/PostgreSQL
 
       - layout: top-middle
-        border: weak 
-        title: Internal Back-Office System
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 사내 Back-Office 시스템
         link: ''
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Internal BO system automatically generates monthly statistical reports including financial information
+          사내 BO 시스템,재무 정보등 월간 통계 보고 자동 생성
         description: |
-          - Passed IOS27001 audit
-          - Internal network infrastructure
-          - Integration of in-house notifications, emails, and Alert in Kakaotalk
-          - Automated CI/CD
+          - IOS27001 심사 통과
+          - 내부 네트워크망 인프라
+          - 사내 알림 및 이메일, 알림톡 연동
+          - CI/CD 자동화
           - React.js/Django 3/PostgreSQL
 
           
@@ -208,16 +256,16 @@ content:
     layout: list
     content:
       - layout: top-left
-        title: Konkyk Univ.
+        title: 건국대학교
         sub_title: Software Engineering
         caption: 2017-2020
         # quote: >
         #   Short institution or course description (optional)
         description: |
-          - Department of Software, College of Computer Science, Konkuk University
-          - Graduation project and thesis award
-          - Awarded scholarship for outstanding international students
-          - Awarded scholarship for excellent academic performance in Korean
+          - 건국대학교 컴퓨터 공헉부 소프트웨어학과
+          - 졸업 설계 및 졸업 논문 수상
+          - 우수 외국인 학생 장학금 수상
+          - 우수한 한국어 학업 장학금 수상
   
   
   - title: Skills
@@ -234,7 +282,7 @@ content:
           - React.js
           - Next.js
           - Nest.js
-          - Node, Npm, Webpack, Vite
+          - Node, Npm, Webpack
 
       - layout: top-left
         title: Back-End
