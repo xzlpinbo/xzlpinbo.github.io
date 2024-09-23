@@ -84,7 +84,6 @@ content:
   - title: Experience
     layout: list
     content:
-
         - layout: left
         title: 하이크로봇코리아
         sub_title: 기술영업/기술지원
