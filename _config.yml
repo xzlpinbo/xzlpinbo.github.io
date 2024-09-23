@@ -84,10 +84,22 @@ content:
   - title: Experience
     layout: list
     content:
+
+        - layout: left
+        title: 하이크로봇코리아
+        sub_title: 기술영업/기술지원
+        caption: (2024.09-현재)
+        link: https://www.hikrobotics.com/kr/
+        quote: >
+          중국 인공지능 로봇 머신 비전 사업부
+        description: |
+          - 전세계 직원수 약 5만명
+          - 머신 비전 공업용 카메라 솔루션 개발
+
       - layout: left
         title: 주식회사 비즈니스온 컴뮤니케이션
         sub_title: 풀스택 개발
-        caption: (2022-현재)
+        caption: (2019.07-2024.08)
         link: https://www.businesson.co.kr/
         quote: >
          코스닥 상장기업, 세금계산서 솔루션 제공 업체, 전자계약 솔루선 업체
@@ -96,16 +108,6 @@ content:
           - 세무 시스템은 고성능 및 고신뢰성
 
 
-      - layout: left
-        title: 주식회사 글로싸인
-        sub_title: 백엔드 개발 
-        caption: 2019-2022(합병인수)
-        link: https://www.glosign.com
-        quote: >
-          스타트업(Daily PV - 100,000)
-        description: |
-          - 기업 맞춤형 전자계약 서비스 솔루션 제공
-          - 국내 최대 규모 전자계약 서비스 제공
 
 
           
