@@ -240,7 +240,7 @@ content:
     layout: list
     content:
       - layout: top-left
-        title: 建国大学(Konkuk)
+        title: 建国大学(Konkuk univ)
         sub_title: Software Engineering
         caption: 2016-2020
         # quote: >
