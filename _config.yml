@@ -1,147 +1,333 @@
-# _config.yml
-
-theme: modern-resume-theme
-remote_theme: sproogen/modern-resume-theme@v2.0.10
-
 # Site
-repository: xzlpinbo/xzlpinbo.github.io
-url: https://xzlpinbo.github.io/
-favicon: assets/images/favicon.ico
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
-# Content configuration
+# Content configuration version
 version: 2
 
 # Personal info
 name: 夏子雷
-title: Full Stack Engineer | Tech Lead
+title: Full Stack Engineer
 email: xiazilei1994@gmail.com
+# email_title: Email (Email title override)
+# phone: '82'
+# phone_title: Phone (Phone title override)
 website: https://xzlpinbo.github.io/
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
 darkmode: never
 
-# About
-about_profile_image: assets/images/profile1.jpg
-about_content: |
-  全栈技术专家，5年企业级系统开发经验，专注于构建高可用、高并发的数字化解决方案。擅长：
+# Social links
+# twitter_username: jekyllrb
+# github_username:  https://xzlpinbo.github.io/
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile1.jpg
+about_content : | 
+    拥有5年经验的全栈开发,专注于Java/Python后端服务和React.js前端服务,熟悉AWS INFRA环境 
+
+    带领团队,为多家韩国大企业及政府部门提供企业级定制服务,参与了从系统设计规划、开发到日程管理的全过程
+
+    作为Team Leader, 带领新人的Code Review, 资源分配以及对上级的沟通和报告
+
+    "Good code is its own best documentation"
+
+    优秀的代码应该是清晰易懂的,无需额外注释或解释,即使是初学者亦能理解
+    优秀的代码应该具有良好的结构、命名清晰、逻辑简单明了,使得它不仅对于编写者自己,也易于其他人的阅读和理解
+
+# about_content: | # this will include new lines to allow paragraphs
+#   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+
+#   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+#     - Lists
+#     - Tables
+#     - <a href="google.com">Links</a>
+#     - Images ![alt text](/images/landscape-trees.jpg "Trees")
+
+content:
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: BusinessOn 
+        sub_title: 全栈开发
+        caption: (2019-至今)
+        link: https://www.businesson.co.kr/
+        quote: >
+         韩上市B2B企业, 电子发票解决方案服务,电子合同解决方案服务
+        description: | # this will include new lines to allow paragraphs
+          - 全韩覆盖率百分之90以上
+          - 税务系统,高并发高可靠
+          - 法律认证电子合同服务
+
+          
+
+
+          
   
-  • 全栈技术架构：从React前端到Spring Boot/Django后端全链路开发
-  • 复杂系统设计：主导开发日PV千万级的政府级系统和百万用户的企业级应用
-  • 性能优化专家：在JVM调优、SQL优化、集群配置方面有丰富实战经验
-  • 团队技术领导：带领5-8人团队完成多个大型项目从设计到交付的全周期管理
-
-  技术理念：
-  "Good code is its own best documentation"
-  - 强调代码的可维护性和扩展性
-  - 注重系统监控和自动化运维
-  - 坚持技术方案与业务需求的高度契合
-
-# Sections
-sections:
-  - name: 工作经历
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
     content:
-      - company: BusinessOn
-        role: 全栈开发工程师
-        period: 2019-至今
-        url: https://www.businesson.co.kr/
-        details: |
-          • 主导韩国市场占有率90%的电子发票系统核心模块开发
-          • 设计实现高并发税务处理架构，日处理交易量超过50万笔
-          • 作为技术骨干参与电子合同法律认证流程开发
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: CHUNGHO
+        link: https://www.chungho.co.kr/
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          产品预约购买后,电子签约系统(B2B/B2C,会员数1000万级,年销售5000亿韩元)
+        description: | # this will include new lines to allow paragraphs
+          - 项目开发Leader, Team管理和资源分配
+          - 公司内部ERP联动
+          - 个人信息保护法内部网络独立
+          - 系统搭建,设计,开发,项目管理独立完成
+          - 公司内部自动化报错监控(lamda)
+          - React.js/Spring-Boot(java 11)/PostgreSQL/Docker
 
-  - name: 核心项目经验
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: LG新能源
+        link: https://www.lgensol.com/zh/index
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          公司内部电子审批/合约/誓约签名系统(全世界12万名员工使用,日PV十万级)
+        description: | # this will include new lines to allow paragraphs
+          - 公司内部ERP联动,1级安保系统
+          - 前后端开发,CI/CD
+          - 内部系统全自动风险监控
+          - 日更新Batch,全自动化更新服务,Slow query 调优,JVM调优
+          - React.js/Spring-Boot(java 11)/Oracle
+
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: SK Hynix
+        link: https://www.skhynix.com/
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          半导体公司内部电子合约系统(全世界20万名以上员工使用,日PV十万级)
+        description: |
+          - 项目开发Leader, Team管理和资源分配, 与客户公司沟通并维护项目至今
+          - 涉密公司内部数据库联动,最上级信息安全系统
+          - 系统搭建,设计,开发,项目管理,项目维护独立完成
+          - 企业适配Slow query 调优,JVM调优,WAS/WEB/DB多集群服务器调优
+          - 大型Daily Batch构建,30+其他内部系统联动调用,多线程处理
+          - React.js/Spring-Boot(java 8),Django 3/Oracle,PostgreSQL/Docker/Windows Server
+
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Lotte-rental
+        link: https://www.lotterental.com/
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          租车签约/租车过户电子化系统(金融类系统,年销售3万亿韩元)
+        description: |
+          - 公司内部ERP联动,内部系统资源调用
+          - 系统搭建,设计,开发,项目管理,项目维护独立完成
+          - 韩国国家金融监理会联动,每月自动划款系统认证联动
+          - 金融类项目标准完成安全和保密工作
+          - React.js/Spring-Boot(java 8)/PostgreSQL
+
+          
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 韩国小企业市场促进公司
+        link: https://www.semas.or.kr/web/main/index.kmdc
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          韩政府部门网站(全韩企业法人使用,日PV千万级)
+        description: |
+          - 高流量高并发高可用系统
+          - 千万级压测和实时监控
+          - 毫秒级适配 Slow query 调优,JVM 调优, WAS/WEB/DB多集群服务器调优
+          - 贷款类项目,各项数据审核自动化,个人认证自动化等政府机关API调用适配
+          - React.js/Spring-Boot(java 8),Django 3/Oracle,PostgreSQL
+
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: SaaS平台 Python Django 项目 JAVA SpringBoot 迁移重构
+        link: '' 
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          公司服务平台的历史代码重构,从 python 迁移至 Java
+        description: |
+          - 初创期Django2 代码重构
+          - 数据库不合理架构重构
+          - TEST CASE 部署前自动测试单元构建
+          - CI/CD 自动化部署和自动监控
+          - Spring-Boot(java 8),Django 2/PostgreSQL
+
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 公司内部 Back-Office 系统(职员用管理系统)
+        link: ''
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          内部 BO 系统,管理所有服务,每月数据自动计算等
+        description: |
+          - 为通过 IOS27001认证构建此管理系统
+          - 公司内部用,保密和IP监控系统
+          - 内部网络专用架构
+          - CI/CD 自动化部署和自动监控
+          - React.js/Django 3/PostgreSQL
+
+          
+ 
+
+  - title: Education
+    layout: list
     content:
-      - title: CHUNGHO电子签约系统
-        url: https://www.chungho.co.kr/
-        tech: React.js + Spring Boot(Java11) + PostgreSQL + Docker
-        details: |
-          • 作为项目负责人带领5人团队，完成B2B/B2C电子签约平台开发，服务1000万+会员
-          • 关键技术实现：
-            - 基于AWS Lambda构建实时错误监控系统，问题响应时间缩短80%
-            - 设计ERP系统深度集成方案，数据同步延迟<500ms
+      - layout: top-left
+        title: 建国大学(Konkuk)
+        sub_title: Software Engineering
+        caption: 2016-2020
+        # quote: >
+        #   Short institution or course description (optional)
+        description: |
+          - 建国大学计算机科学系软件工学科
+          - 毕业设计,毕业论文获奖
+          - 优秀外国人学生奖学金
+          - 优秀韩语奖学金
+  
+  
+  - title: Skills
+    layout: list
 
-      - title: LG新能源全球综合平台
-        url: https://www.lgensol.com/zh/index
-        tech: React + Spring Boot(Java11) + Oracle RAC
-        details: |
-          • 开发覆盖20+国12万员工的电子审批系统，日处理请求10万+
-          • 性能优化成果：
-            - JVM调优后GC暂停时间从1.2s降至200ms
-            - 复杂SQL查询优化，执行时间从8s提升至0.5s
-
-      - title: SK海力士安全合约系统
-        url: https://www.skhynix.com/
-        tech: Spring Boot(Java8)/Django3 + Oracle + Windows Server
-        details: |
-          • 领导开发涉密电子合约系统，通过ISO27001安全认证
-          • 系统特性：
-            - 多集群部署（WAS/WEB/DB），故障自动切换
-            - 30+内部系统API集成，日均调用量200万+
-
-      - title: Lotte租车金融系统
-        url: https://www.lotterental.com/
-        tech: React + Spring Boot(Java8) + PostgreSQL
-        details: |
-          • 开发年交易额3万亿韩元的金融级租约系统
-          • 合规性保障：
-            - 实现韩国金融监管机构API自动对接
-            - 设计数据加密方案满足金融标准
-
-      - title: 韩国中小企业政府平台
-        url: https://www.semas.or.kr/web/main/index.kmdc
-        tech: Spring Boot(Java8)/Django3 + Oracle
-        details: |
-          • 开发日PV千万级的政府服务门户
-          • 性能突破：
-            - 通过负载测试：5000并发用户响应时间<1s
-            - 数据库查询优化，慢查询数量减少95%
-
-      - title: SaaS平台迁移重构
-        tech: Spring Boot(Java8) + Django2 + PostgreSQL
-        details: |
-          • 领导Python(Django2)到Java(Spring Boot)的系统重构
-          • 改进点：
-            - 重构数据库架构，查询效率提升60%
-            - 建立自动化测试体系，测试覆盖率从30%提升至85%
-
-      - title: 企业后台管理系统
-        tech: React + Django3 + PostgreSQL
-        details: |
-          • 开发通过ISO27001认证的内部管理系统
-          • 安全特性：
-            - 实现细粒度权限控制(RBAC模型)
-            - 构建操作日志审计系统
-
-  - name: 教育背景
     content:
-      - institution: 建国大学
-        degree: 计算机科学系软件工程专业
-        period: 2016-2020
-        details: |
-          • 获奖：
-            - 校级优秀毕业设计奖（TOP 1%）
-            - 国际学生学术成就奖学金（连续3年）
+      - layout: top-left
+        title: Front-End
+        # sub_title: Software Engineering
+        # caption: 2016-2020
+        # quote: >
+        #   Short institution or course description (optional)
+        description: |
+          - React.js
+          - Next.js
+          - Nest.js
+          - Node, Npm, Webpack
 
-  - name: 技术能力
-    content:
-      - category: 核心技术栈
-        skills: |
-          • 前端：React生态（Hooks/Redux）、TypeScript
-          • 后端：Spring Boot(8/11)、Django3、RESTful API设计
-          • 数据库：Oracle、PostgreSQL、JPA/Hibernate
-      - category: 基础设施
-        skills: |
-          • 云服务：AWS(EC2/RDS/S3)、Docker Compose
-          • 运维：Nginx配置、Linux服务器管理
-          • 工具链：Git/Jira/Notion
+      - layout: top-left
+        title: Back-End
+        # sub_title: Software Engineering
+        # caption: 2016-2020
+        # quote: >
+        #   Short institution or course description (optional)
+        description: |
+          - Java, Spring-boot, Spring MVC, Spring Batch, Spring Security, Spring Data JPA, Spring Cloud AWS
+          - JPA, Querydsl, Hibernate, JPQL
+          - Python Django
+          - Gradle, Maven
+          - Docker, Docker-Compose
+
+      - layout: top-left
+        title: DevOps
+        # sub_title: Software Engineering
+        # caption: 2016-2020
+        # quote: >
+        #   Short institution or course description (optional)
+        description: |
+          - Oracle, PostgreSQL
+          - AWS RDS, S3, EC2
+          - Nginx, Tomcat
+          - Linux (centOS,ubuntu,Red-hat)
+
+      - layout: top-left
+        title: ETC
+        # sub_title: Software Engineering
+        # caption: 2016-2020
+        # quote: >
+        #   Short institution or course description (optional)
+        description: |
+          - Teams, Slack, Notion, Jira
+          - git
+          - VS Code, IntelliJ IDEA
 
 # Footer
 footer_show_references: true
+# references_title: References on request (Override references text)
 
 # Build settings
-plugins:
-  - jekyll-seo-tag
-  - jekyll-feed
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - vendor
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]

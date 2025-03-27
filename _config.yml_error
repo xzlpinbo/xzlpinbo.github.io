@@ -1,0 +1,147 @@
+# _config.yml
+
+theme: modern-resume-theme
+remote_theme: sproogen/modern-resume-theme@v2.0.10
+
+# Site
+repository: xzlpinbo/xzlpinbo.github.io
+url: https://xzlpinbo.github.io/
+favicon: assets/images/favicon.ico
+
+# Content configuration
+version: 2
+
+# Personal info
+name: 夏子雷
+title: Full Stack Engineer | Tech Lead
+email: xiazilei1994@gmail.com
+website: https://xzlpinbo.github.io/
+darkmode: never
+
+# About
+about_profile_image: assets/images/profile1.jpg
+about_content: |
+  全栈技术专家，5年企业级系统开发经验，专注于构建高可用、高并发的数字化解决方案。擅长：
+  
+  • 全栈技术架构：从React前端到Spring Boot/Django后端全链路开发
+  • 复杂系统设计：主导开发日PV千万级的政府级系统和百万用户的企业级应用
+  • 性能优化专家：在JVM调优、SQL优化、集群配置方面有丰富实战经验
+  • 团队技术领导：带领5-8人团队完成多个大型项目从设计到交付的全周期管理
+
+  技术理念：
+  "Good code is its own best documentation"
+  - 强调代码的可维护性和扩展性
+  - 注重系统监控和自动化运维
+  - 坚持技术方案与业务需求的高度契合
+
+# Sections
+sections:
+  - name: 工作经历
+    content:
+      - company: BusinessOn
+        role: 全栈开发工程师
+        period: 2019-至今
+        url: https://www.businesson.co.kr/
+        details: |
+          • 主导韩国市场占有率90%的电子发票系统核心模块开发
+          • 设计实现高并发税务处理架构，日处理交易量超过50万笔
+          • 作为技术骨干参与电子合同法律认证流程开发
+
+  - name: 核心项目经验
+    content:
+      - title: CHUNGHO电子签约系统
+        url: https://www.chungho.co.kr/
+        tech: React.js + Spring Boot(Java11) + PostgreSQL + Docker
+        details: |
+          • 作为项目负责人带领5人团队，完成B2B/B2C电子签约平台开发，服务1000万+会员
+          • 关键技术实现：
+            - 基于AWS Lambda构建实时错误监控系统，问题响应时间缩短80%
+            - 设计ERP系统深度集成方案，数据同步延迟<500ms
+
+      - title: LG新能源全球综合平台
+        url: https://www.lgensol.com/zh/index
+        tech: React + Spring Boot(Java11) + Oracle RAC
+        details: |
+          • 开发覆盖20+国12万员工的电子审批系统，日处理请求10万+
+          • 性能优化成果：
+            - JVM调优后GC暂停时间从1.2s降至200ms
+            - 复杂SQL查询优化，执行时间从8s提升至0.5s
+
+      - title: SK海力士安全合约系统
+        url: https://www.skhynix.com/
+        tech: Spring Boot(Java8)/Django3 + Oracle + Windows Server
+        details: |
+          • 领导开发涉密电子合约系统，通过ISO27001安全认证
+          • 系统特性：
+            - 多集群部署（WAS/WEB/DB），故障自动切换
+            - 30+内部系统API集成，日均调用量200万+
+
+      - title: Lotte租车金融系统
+        url: https://www.lotterental.com/
+        tech: React + Spring Boot(Java8) + PostgreSQL
+        details: |
+          • 开发年交易额3万亿韩元的金融级租约系统
+          • 合规性保障：
+            - 实现韩国金融监管机构API自动对接
+            - 设计数据加密方案满足金融标准
+
+      - title: 韩国中小企业政府平台
+        url: https://www.semas.or.kr/web/main/index.kmdc
+        tech: Spring Boot(Java8)/Django3 + Oracle
+        details: |
+          • 开发日PV千万级的政府服务门户
+          • 性能突破：
+            - 通过负载测试：5000并发用户响应时间<1s
+            - 数据库查询优化，慢查询数量减少95%
+
+      - title: SaaS平台迁移重构
+        tech: Spring Boot(Java8) + Django2 + PostgreSQL
+        details: |
+          • 领导Python(Django2)到Java(Spring Boot)的系统重构
+          • 改进点：
+            - 重构数据库架构，查询效率提升60%
+            - 建立自动化测试体系，测试覆盖率从30%提升至85%
+
+      - title: 企业后台管理系统
+        tech: React + Django3 + PostgreSQL
+        details: |
+          • 开发通过ISO27001认证的内部管理系统
+          • 安全特性：
+            - 实现细粒度权限控制(RBAC模型)
+            - 构建操作日志审计系统
+
+  - name: 教育背景
+    content:
+      - institution: 建国大学
+        degree: 计算机科学系软件工程专业
+        period: 2016-2020
+        details: |
+          • 获奖：
+            - 校级优秀毕业设计奖（TOP 1%）
+            - 国际学生学术成就奖学金（连续3年）
+
+  - name: 技术能力
+    content:
+      - category: 核心技术栈
+        skills: |
+          • 前端：React生态（Hooks/Redux）、TypeScript
+          • 后端：Spring Boot(8/11)、Django3、RESTful API设计
+          • 数据库：Oracle、PostgreSQL、JPA/Hibernate
+      - category: 基础设施
+        skills: |
+          • 云服务：AWS(EC2/RDS/S3)、Docker Compose
+          • 运维：Nginx配置、Linux服务器管理
+          • 工具链：Git/Jira/Notion
+
+# Footer
+footer_show_references: true
+
+# Build settings
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
