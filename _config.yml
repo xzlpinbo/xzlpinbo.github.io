@@ -49,9 +49,13 @@ github_username: "xzlpinbo" # Quoted for consistency, though often not strictly 
 about_profile_image: "images/profile1.jpg" # Quoted for consistency
 about_content: |
   拥有5年全栈开发经验，精通Java/Python后端及React.js前端技术，熟悉AWS云平台基础设施。
+
   曾带领团队为多家韩国大型企业及政府部门提供企业级定制解决方案，深度参与从系统设计、规划、开发到项目交付的全生命周期管理。
+
   担任团队负责人期间，主导Code Review、任务分配、新人指导，并负责与上级进行项目沟通与汇报。
+
   坚信“优秀的代码本身即是最佳文档”，致力于编写结构清晰、逻辑简明、易于维护的高质量代码。
+
 
 content:
   - title: "工作经历 (Work Experience)"
@@ -63,7 +67,7 @@ content:
         caption: "2019年 - 至今"
         link: "https://www.businesson.co.kr/"
         description: |
-          在韩国上市B2B解决方案提供商BusinessOn任职，专注于电子化企业服务。
+          在韩国上市,覆盖率百分之90以上B2B解决方案提供商BusinessOn任职，专注于电子化企业服务。
           初期担任全栈工程师，负责核心产品（如电子税务、电子合同系统）的开发与维护。
           后晋升为技术主管，领导团队为多个大型企业客户（如LG、SK Hynix）及政府机构交付定制化项目。
           主要职责包括：
@@ -206,13 +210,13 @@ content:
           - **容器化**: Docker, Docker-Compose, Kubernetes (基础)
           - **CI/CD**: Jenkins, GitLab CI, GitHub Actions
           - **服务器/中间件**: Nginx, Apache Tomcat
-          - **操作系统**: Linux (CentOS, Ubuntu, Red Hat)
+          - **操作系统**: Linux (CentOS, Ubuntu, Red Hat), Windows Server, Mac OS
 
       - layout: top-left
         title: "其他工具 & 方法论 (Others)"
         description: |
           - **版本控制**: Git, Gitflow
-          - **协作工具**: Jira, Confluence, Slack, Notion, Teams
+          - **协作工具**: Jira, Slack, Notion, Teams
           - **IDE**: IntelliJ IDEA, VS Code
 
 # Footer
