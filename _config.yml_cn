@@ -1,0 +1,333 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: 夏子雷
+title: Full Stack Engineer
+email: xiazilei1994@gmail.com
+# email_title: Email (Email title override)
+# phone: '82'
+# phone_title: Phone (Phone title override)
+website: https://xzlpinbo.github.io/
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+# twitter_username: jekyllrb
+# github_username:  https://xzlpinbo.github.io/
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jekyll
+# linkedin_username: jekyll
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: jekyll
+# orcid_username: 0000-0000-0000-0000
+# googlescholar_username: D847cGsAAAAJ
+
+# Additional icon links
+additional_links:
+# - title: Link name
+#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile1.jpg
+about_content : | 
+    拥有5年经验的全栈开发,专注于Java/Python后端服务和React.js前端服务,熟悉AWS INFRA环境 
+
+    带领团队,为多家韩国大企业及政府部门提供企业级定制服务,参与了从系统设计规划、开发到日程管理的全过程
+
+    作为Team Leader, 带领新人的Code Review, 资源分配以及对上级的沟通和报告
+
+    "Good code is its own best documentation"
+
+    优秀的代码应该是清晰易懂的,无需额外注释或解释,即使是初学者亦能理解
+    优秀的代码应该具有良好的结构、命名清晰、逻辑简单明了,使得它不仅对于编写者自己,也易于其他人的阅读和理解
+
+# about_content: | # this will include new lines to allow paragraphs
+#   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+
+#   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
+#     - Lists
+#     - Tables
+#     - <a href="google.com">Links</a>
+#     - Images ![alt text](/images/landscape-trees.jpg "Trees")
+
+content:
+
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: BusinessOn 
+        sub_title: 全栈开发
+        caption: (2019-至今)
+        link: https://www.businesson.co.kr/
+        quote: >
+         韩上市B2B企业, 电子发票解决方案服务,电子合同解决方案服务
+        description: | # this will include new lines to allow paragraphs
+          - 全韩覆盖率百分之90以上
+          - 税务系统,高并发高可靠
+          - 法律认证电子合同服务
+
+          
+
+
+          
+  
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: CHUNGHO
+        link: https://www.chungho.co.kr/
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          产品预约购买后,电子签约系统(B2B/B2C,会员数1000万级,年销售5000亿韩元)
+        description: | # this will include new lines to allow paragraphs
+          - 项目开发Leader, Team管理和资源分配
+          - 公司内部ERP联动
+          - 个人信息保护法内部网络独立
+          - 系统搭建,设计,开发,项目管理独立完成
+          - 公司内部自动化报错监控(lamda)
+          - React.js/Spring-Boot(java 11)/PostgreSQL/Docker
+
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: LG新能源
+        link: https://www.lgensol.com/zh/index
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          公司内部电子审批/合约/誓约签名系统(全世界12万名员工使用,日PV十万级)
+        description: | # this will include new lines to allow paragraphs
+          - 公司内部ERP联动,1级安保系统
+          - 前后端开发,CI/CD
+          - 内部系统全自动风险监控
+          - 日更新Batch,全自动化更新服务,Slow query 调优,JVM调优
+          - React.js/Spring-Boot(java 11)/Oracle
+
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: SK Hynix
+        link: https://www.skhynix.com/
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          半导体公司内部电子合约系统(全世界20万名以上员工使用,日PV十万级)
+        description: |
+          - 项目开发Leader, Team管理和资源分配, 与客户公司沟通并维护项目至今
+          - 涉密公司内部数据库联动,最上级信息安全系统
+          - 系统搭建,设计,开发,项目管理,项目维护独立完成
+          - 企业适配Slow query 调优,JVM调优,WAS/WEB/DB多集群服务器调优
+          - 大型Daily Batch构建,30+其他内部系统联动调用,多线程处理
+          - React.js/Spring-Boot(java 8),Django 3/Oracle,PostgreSQL/Docker/Windows Server
+
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: Lotte-rental
+        link: https://www.lotterental.com/
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          租车签约/租车过户电子化系统(金融类系统,年销售3万亿韩元)
+        description: |
+          - 公司内部ERP联动,内部系统资源调用
+          - 系统搭建,设计,开发,项目管理,项目维护独立完成
+          - 韩国国家金融监理会联动,每月自动划款系统认证联动
+          - 金融类项目标准完成安全和保密工作
+          - React.js/Spring-Boot(java 8)/PostgreSQL
+
+          
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 韩国小企业市场促进公司
+        link: https://www.semas.or.kr/web/main/index.kmdc
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          韩政府部门网站(全韩企业法人使用,日PV千万级)
+        description: |
+          - 高流量高并发高可用系统
+          - 千万级压测和实时监控
+          - 毫秒级适配 Slow query 调优,JVM 调优, WAS/WEB/DB多集群服务器调优
+          - 贷款类项目,各项数据审核自动化,个人认证自动化等政府机关API调用适配
+          - React.js/Spring-Boot(java 8),Django 3/Oracle,PostgreSQL
+
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: SaaS平台 Python Django 项目 JAVA SpringBoot 迁移重构
+        link: '' 
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          公司服务平台的历史代码重构,从 python 迁移至 Java
+        description: |
+          - 初创期Django2 代码重构
+          - 数据库不合理架构重构
+          - TEST CASE 部署前自动测试单元构建
+          - CI/CD 自动化部署和自动监控
+          - Spring-Boot(java 8),Django 2/PostgreSQL
+
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: 公司内部 Back-Office 系统(职员用管理系统)
+        link: ''
+        # link_text: Link Text
+        # additional_links:
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          内部 BO 系统,管理所有服务,每月数据自动计算等
+        description: |
+          - 为通过 IOS27001认证构建此管理系统
+          - 公司内部用,保密和IP监控系统
+          - 内部网络专用架构
+          - CI/CD 自动化部署和自动监控
+          - React.js/Django 3/PostgreSQL
+
+          
+ 
+
+  - title: Education
+    layout: list
+    content:
+      - layout: top-left
+        title: 建国大学(Konkuk univ)
+        sub_title: Software Engineering
+        caption: 2016-2020
+        # quote: >
+        #   Short institution or course description (optional)
+        description: |
+          - 建国大学计算机科学系软件工学科
+          - 毕业设计,毕业论文获奖
+          - 优秀外国人学生奖学金
+          - 优秀韩语奖学金
+  
+  
+  - title: Skills
+    layout: list
+
+    content:
+      - layout: top-left
+        title: Front-End
+        # sub_title: Software Engineering
+        # caption: 2016-2020
+        # quote: >
+        #   Short institution or course description (optional)
+        description: |
+          - React.js
+          - Next.js
+          - Nest.js
+          - Node, Npm, Webpack
+
+      - layout: top-left
+        title: Back-End
+        # sub_title: Software Engineering
+        # caption: 2016-2020
+        # quote: >
+        #   Short institution or course description (optional)
+        description: |
+          - Java, Spring-boot, Spring MVC, Spring Batch, Spring Security, Spring Data JPA, Spring Cloud AWS
+          - JPA, Querydsl, Hibernate, JPQL
+          - Python Django
+          - Gradle, Maven
+          - Docker, Docker-Compose
+
+      - layout: top-left
+        title: DevOps
+        # sub_title: Software Engineering
+        # caption: 2016-2020
+        # quote: >
+        #   Short institution or course description (optional)
+        description: |
+          - Oracle, PostgreSQL
+          - AWS RDS, S3, EC2
+          - Nginx, Tomcat
+          - Linux (centOS,ubuntu,Red-hat)
+
+      - layout: top-left
+        title: ETC
+        # sub_title: Software Engineering
+        # caption: 2016-2020
+        # quote: >
+        #   Short institution or course description (optional)
+        description: |
+          - Teams, Slack, Notion, Jira
+          - git
+          - VS Code, IntelliJ IDEA
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
