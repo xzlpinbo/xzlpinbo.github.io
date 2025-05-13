@@ -1,23 +1,6 @@
-Okay, I've reviewed your resume content and will provide a polished version.
-The main changes involve:
-
-Refining wording for impact and professionalism: Using stronger action verbs and more descriptive professional language (e.g., "全生命周期管理", "主导", "深度参与").
-
-Improving clarity and flow: Especially in the "About Me" and project descriptions.
-
-Standardizing formatting: Such as how "技术栈" (Tech Stack) is presented.
-
-Slight structural adjustments for readability: For instance, modifying the "Experience" section to better frame your role at BusinessOn, leading into the "Projects" which seem to be client engagements through that company.
-
-Correcting minor details: Like github_username.
-
-Ensuring consistency in language (Chinese).
-
-Here's the revised YAML:
-
 # Site
-repository: xzlpinbo/your-resume-repo-name # eg. sproogen/modern-resume-theme (Replace with your actual repo if hosting on GitHub)
-# favicon: images/favicon.ico # (optional)
+# repository: "yourusername/your-repo-name" # eg. "sproogen/modern-resume-theme" (Uncomment and set if hosting on GitHub Pages from a repo)
+# favicon: "images/favicon.ico" # (optional)
 
 # Content configuration version
 version: 2
@@ -26,35 +9,35 @@ version: 2
 name: 夏子雷
 title: 全栈工程师 (Full Stack Engineer)
 email: xiazilei1994@gmail.com
-# email_title: Email (Email title override)
+# email_title: Email # (Email title override)
 # phone: '82'
-# phone_title: Phone (Phone title override)
+# phone_title: Phone # (Phone title override)
 website: https://xzlpinbo.github.io/
-# website_title: Web (Website title override)
+# website_title: Web # (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: never # Recommended: 'never', 'true', or 'false'
 
 # Social links
-# twitter_username: jekyllrb
-github_username: xzlpinbo # Corrected: should be username, not URL
+# twitter_username: "jekyllrb"
+github_username: "xzlpinbo" # Quoted for consistency, though often not strictly necessary for simple usernames
 # stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jekyll
-# linkedin_username: jekyll
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: jekyll
-# orcid_username: 0000-0000-0000-0000
-# googlescholar_username: D847cGsAAAAJ
+# dribbble_username: "jekyll"
+# facebook_username: "jekyll"
+# flickr_username: "jekyll"
+# instagram_username: "jekyll"
+# linkedin_username: "jekyll"
+# xing_username: "jekyll"
+# pinterest_username: "jekyll"
+# youtube_username: "jekyll"
+# orcid_username: "0000-0000-0000-0000"
+# googlescholar_username: "D847cGsAAAAJ"
 
 # Additional icon links
 # additional_links:
-# - title: Link name
-#   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+#   - title: "Link name"
+#     icon: "fab fa-twitter" # Font Awesome brand icon name (eg. fab fa-twitter)
+#     url: "https://google.com" # Link url
 
 # Google Analytics and Tag Manager
 # gtm: "GTM-0000000"
@@ -62,8 +45,8 @@ github_username: xzlpinbo # Corrected: should be username, not URL
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: 关于我 (About Me)
-about_profile_image: images/profile1.jpg
+# about_title: "关于我" # (Use this to override about section title)
+about_profile_image: "images/profile1.jpg" # Quoted for consistency
 about_content: |
   拥有5年全栈开发经验，精通Java/Python后端及React.js前端技术，熟悉AWS云平台基础设施。
   曾带领团队为多家韩国大型企业及政府部门提供企业级定制解决方案，深度参与从系统设计、规划、开发到项目交付的全生命周期管理。
@@ -71,15 +54,14 @@ about_content: |
   坚信“优秀的代码本身即是最佳文档”，致力于编写结构清晰、逻辑简明、易于维护的高质量代码。
 
 content:
-  - title: 工作经历 (Work Experience)
+  - title: "工作经历 (Work Experience)"
     layout: list
     content:
       - layout: left
-        title: BusinessOn
-        sub_title: 全栈工程师 / 技术主管 (Full Stack Engineer / Tech Lead)
-        caption: 2019年 - 至今
-        link: https://www.businesson.co.kr/
-        # quote: > # Company description moved to be implicit via projects
+        title: "BusinessOn"
+        sub_title: "全栈工程师 / 技术主管 (Full Stack Engineer / Tech Lead)"
+        caption: "2019年 - 至今"
+        link: "https://www.businesson.co.kr/"
         description: |
           在韩国上市B2B解决方案提供商BusinessOn任职，专注于电子化企业服务。
           初期担任全栈工程师，负责核心产品（如电子税务、电子合同系统）的开发与维护。
@@ -90,13 +72,13 @@ content:
           - 负责技术选型、性能优化（数据库、JVM、服务器集群）及CI/CD流程建设。
           - 与客户及内部多部门沟通协作，确保项目顺利交付与系统稳定运行。
 
-  - title: 项目经历 (Projects) # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: "项目经历 (Projects)"
+    layout: list
     content:
       - layout: top-middle
         border: weak
-        title: CHUNGHO 电子签约系统
-        link: https://www.chungho.co.kr/
+        title: "CHUNGHO 电子签约系统"
+        link: "https://www.chungho.co.kr/"
         quote: >
           为CHUNGHO集团（会员数1000万级，年销售额5000亿韩元）构建B2B/B2C产品预约购买及电子签约平台。
         description: |
@@ -109,8 +91,8 @@ content:
 
       - layout: top-middle
         border: weak
-        title: LG新能源 内部审批及合约系统
-        link: https://www.lgensol.com/zh/index
+        title: "LG新能源 内部审批及合约系统"
+        link: "https://www.lgensol.com/zh/index"
         quote: >
           为LG新能源（全球12万名员工，日PV十万级）开发内部电子审批、合约及电子签名系统。
         description: |
@@ -122,8 +104,8 @@ content:
 
       - layout: top-middle
         border: weak
-        title: SK Hynix 内部电子合约系统
-        link: https://www.skhynix.com/
+        title: "SK Hynix 内部电子合约系统"
+        link: "https://www.skhynix.com/"
         quote: >
           为SK Hynix（全球20万名员工，日PV十万级）定制开发内部电子合约系统。
         description: |
@@ -136,8 +118,8 @@ content:
 
       - layout: top-middle
         border: weak
-        title: Lotte-rental 电子化签约系统
-        link: https://www.lotterental.com/
+        title: "Lotte-rental 电子化签约系统"
+        link: "https://www.lotterental.com/"
         quote: >
           为Lotte-rental（年销售额3万亿韩元）开发租车签约及过户电子化金融系统。
         description: |
@@ -149,8 +131,8 @@ content:
 
       - layout: top-middle
         border: weak
-        title: 韩国小企业市场促进公司 政府服务网站
-        link: https://www.semas.or.kr/web/main/index.kmdc
+        title: "韩国小企业市场促进公司 政府服务网站"
+        link: "https://www.semas.or.kr/web/main/index.kmdc"
         quote: >
           为韩国政府部门开发面向全国企业法人的服务网站（日PV千万级）。
         description: |
@@ -162,8 +144,8 @@ content:
 
       - layout: top-middle
         border: weak
-        title: SaaS平台 Python Django至Java Spring Boot迁移重构
-        # link: '' # Internal project
+        title: "SaaS平台 Python Django至Java Spring Boot迁移重构"
+        # link: "" # No link for internal project
         quote: >
           主导公司核心SaaS平台的技术栈迁移：从Python Django重构至Java Spring Boot，提升系统性能与可维护性。
         description: |
@@ -174,9 +156,9 @@ content:
           技术栈: Spring Boot (Java 8), Python Django 2, PostgreSQL, CI/CD
 
       - layout: top-middle
-        # border: weak # No border for the last item in a list usually looks cleaner
-        title: 公司内部Back-Office管理系统开发
-        # link: '' # Internal project
+        # border: weak # Last item often doesn't need a border
+        title: "公司内部Back-Office管理系统开发"
+        # link: "" # No link for internal project
         quote: >
           为提升内部运营效率，开发公司内部Back-Office系统，用于统一管理各项服务及自动化月度数据处理。
         description: |
@@ -186,30 +168,30 @@ content:
           - 实施CI/CD流程，支持自动化部署与系统监控。
           技术栈: React.js, Django 3, PostgreSQL, CI/CD
 
-  - title: 教育背景 (Education)
+  - title: "教育背景 (Education)"
     layout: list
     content:
       - layout: top-left
-        title: 建国大学 (Konkuk University)
-        sub_title: 软件工程 (Software Engineering)
-        caption: 2016年 - 2020年
+        title: "建国大学 (Konkuk University)"
+        sub_title: "软件工程 (Software Engineering)"
+        caption: "2016年 - 2020年"
         description: |
           - 主修计算机科学与技术，软件工程方向。
           - 毕业设计及毕业论文荣获校级奖项。
           - 多次荣获优秀外国留学生奖学金及韩语能力奖学金。
 
-  - title: 技术技能 (Skills)
-    layout: list # Changed to list to allow multiple skill categories
+  - title: "技术技能 (Skills)"
+    layout: list
     content:
-      - layout: top-left # Using top-left for skills as in original, good for category + list
-        title: 前端 (Front-End)
+      - layout: top-left
+        title: "前端 (Front-End)"
         description: |
           - **JavaScript/TypeScript**: React.js, Next.js, Redux, Zustand
           - **UI/UX**: HTML5, CSS3, Sass/SCSS, Styled-Components, Material-UI
           - **构建工具**: Node.js, Npm/Yarn, Webpack, Babel
 
       - layout: top-left
-        title: 后端 (Back-End)
+        title: "后端 (Back-End)"
         description: |
           - **Java**: Spring Boot, Spring MVC, Spring Batch, Spring Security, Spring Data JPA, Spring Cloud AWS
           - **ORM/Data**: JPA, Hibernate, Querydsl, JPQL, MyBatis
@@ -217,7 +199,7 @@ content:
           - **构建/依赖**: Gradle, Maven
 
       - layout: top-left
-        title: 数据库 & DevOps (Databases & DevOps)
+        title: "数据库 & DevOps (Databases & DevOps)"
         description: |
           - **数据库**: Oracle, PostgreSQL, MySQL, Redis
           - **云服务 (AWS)**: EC2, S3, RDS, Lambda, CloudWatch, IAM
@@ -227,7 +209,7 @@ content:
           - **操作系统**: Linux (CentOS, Ubuntu, Red Hat)
 
       - layout: top-left
-        title: 其他工具 & 方法论 (Others)
+        title: "其他工具 & 方法论 (Others)"
         description: |
           - **版本控制**: Git, Gitflow
           - **协作工具**: Jira, Confluence, Slack, Notion, Teams
@@ -236,28 +218,27 @@ content:
 
 # Footer
 footer_show_references: true
-# references_title: References available upon request.
+# references_title: "References available upon request." # Override references text
 
 # Build settings
-# theme: modern-resume-theme # (Use this if you are hosting your resume yourself)
-remote_theme: sproogen/modern-resume-theme # (Use this if you are hosting your resume on GitHub)
+# theme: "modern-resume-theme" # (Use this if you are hosting your resume yourself)
+remote_theme: "sproogen/modern-resume-theme" # (Use this if you are hosting your resume on GitHub)
 
 sass:
-  sass_dir: _sass
+  sass_dir: _sass # Note: In YAML, unquoted `_sass` is fine, but Jekyll convention often shows it quoted.
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"
+  - "vendor/bundle/"
+  - "vendor/cache/"
+  - "vendor/gems/"
+  - "vendor/ruby/"
+  - "lib/"
+  - "scripts/"
+  - "docker-compose.yml"
