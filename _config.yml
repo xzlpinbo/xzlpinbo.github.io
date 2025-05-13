@@ -100,7 +100,7 @@ content:
           - 负责系统全栈开发，并搭建CI/CD自动化部署流水线。
           - 开发内部系统全自动风险监控模块，保障系统稳定性。
           - 设计并实现每日批量更新服务；进行Slow Query及JVM性能调优。
-          技术栈: React.js, Spring Boot (Java 11), Oracle, CI/CD
+          - 技术栈: React.js, Spring Boot (Java 11), Oracle, CI/CD
 
       - layout: top-middle
         border: weak
@@ -114,7 +114,7 @@ content:
           - 独立完成系统架构设计、核心功能开发、项目管理及后期维护。
           - 针对企业级应用进行Slow Query、JVM及WAS/WEB/DB集群性能调优。
           - 构建大型每日批量处理任务，集成30+内部系统接口，并应用多线程技术提升处理效率。
-          技术栈: React.js, Spring Boot (Java 8), Django 3, Oracle, PostgreSQL, Docker, Windows Server
+          - 技术栈: React.js, Spring Boot (Java 8), Django 3, Oracle, PostgreSQL, Docker, Windows Server
 
       - layout: top-middle
         border: weak
@@ -127,7 +127,7 @@ content:
           - 独立负责系统设计、开发、项目管理及后续维护工作。
           - 实现与韩国国家金融监管机构系统的联动，支持每月自动扣款及认证功能。
           - 严格遵循金融项目标准，确保系统数据安全与业务保密。
-          技术栈: React.js, Spring Boot (Java 8), PostgreSQL
+          - 技术栈: React.js, Spring Boot (Java 8), PostgreSQL
 
       - layout: top-middle
         border: weak
@@ -140,7 +140,7 @@ content:
           - 执行千万级并发压力测试，并部署实时性能监控系统。
           - 进行毫秒级Slow Query优化、JVM调优及WAS/WEB/DB集群性能调优。
           - 为贷款类业务实现数据自动审核、个人认证自动化，并适配多个政府机关API接口。
-          技术栈: React.js, Spring Boot (Java 8), Django 3, Oracle, PostgreSQL
+          - 技术栈: React.js, Spring Boot (Java 8), Django 3, Oracle, PostgreSQL
 
       - layout: top-middle
         border: weak
@@ -153,7 +153,7 @@ content:
           - 优化并重构了原有的数据库设计，提升数据一致性与查询效率。
           - 构建全面的单元测试与集成测试用例，实现部署前自动化测试。
           - 建立CI/CD流水线，实现自动化部署与实时系统监控。
-          技术栈: Spring Boot (Java 8), Python Django 2, PostgreSQL, CI/CD
+          - 技术栈: Spring Boot (Java 8), Python Django 2, PostgreSQL, CI/CD
 
       - layout: top-middle
         # border: weak # Last item often doesn't need a border
@@ -166,7 +166,7 @@ content:
           - 部署于公司内部网络，集成数据保密与IP访问监控功能。
           - 采用内部网络专用架构，确保系统安全性与隔离性。
           - 实施CI/CD流程，支持自动化部署与系统监控。
-          技术栈: React.js, Django 3, PostgreSQL, CI/CD
+          - 技术栈: React.js, Django 3, PostgreSQL, CI/CD
 
   - title: "教育背景 (Education)"
     layout: list
@@ -186,14 +186,14 @@ content:
       - layout: top-left
         title: "前端 (Front-End)"
         description: |
-          - **JavaScript/TypeScript**: React.js, Next.js, Redux, Zustand
-          - **UI/UX**: HTML5, CSS3, Sass/SCSS, Styled-Components, Material-UI
+          - **JavaScript/TypeScript**: React.js, Next.js, Redux
+          - **UI/UX**: HTML5, CSS3, Sass/SCSS, Styled-Components, M-UI
           - **构建工具**: Node.js, Npm/Yarn, Webpack, Babel
 
       - layout: top-left
         title: "后端 (Back-End)"
         description: |
-          - **Java**: Spring Boot, Spring MVC, Spring Batch, Spring Security, Spring Data JPA, Spring Cloud AWS
+          - **Java**: Spring Boot, Spring MVC, Spring Batch, Spring Security, Spring Data JPA
           - **ORM/Data**: JPA, Hibernate, Querydsl, JPQL, MyBatis
           - **Python**: Django, Django REST framework
           - **构建/依赖**: Gradle, Maven
@@ -201,8 +201,8 @@ content:
       - layout: top-left
         title: "数据库 & DevOps (Databases & DevOps)"
         description: |
-          - **数据库**: Oracle, PostgreSQL, MySQL, Redis
-          - **云服务 (AWS)**: EC2, S3, RDS, Lambda, CloudWatch, IAM
+          - **数据库**: Oracle, PostgreSQL, Redis
+          - **云服务 (AWS)**: EC2, S3, RDS, Lambda
           - **容器化**: Docker, Docker-Compose, Kubernetes (基础)
           - **CI/CD**: Jenkins, GitLab CI, GitHub Actions
           - **服务器/中间件**: Nginx, Apache Tomcat
@@ -214,7 +214,6 @@ content:
           - **版本控制**: Git, Gitflow
           - **协作工具**: Jira, Confluence, Slack, Notion, Teams
           - **IDE**: IntelliJ IDEA, VS Code
-          - **敏捷开发**: Scrum, Kanban
 
 # Footer
 footer_show_references: true
